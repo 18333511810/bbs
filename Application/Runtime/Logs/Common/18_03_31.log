@@ -1,0 +1,186 @@
+[ 2018-03-31T15:22:54+08:00 ] 127.0.0.1 /Public/Home/picture/nophoto.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008307s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-31T15:22:56+08:00 ] 127.0.0.1 /Public/Admin/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-31T15:22:56+08:00 ] 127.0.0.1 /Public/Admin/images/aiwrap.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000874s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-31T15:22:56+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001337s ]
+ERR: 无法加载模块:Favicon
+
+[ 2018-03-31T15:23:02+08:00 ] 127.0.0.1 /Public/Admin/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000798s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-31T15:23:02+08:00 ] 127.0.0.1 /Public/Admin/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-31T15:23:02+08:00 ] 127.0.0.1 /Public/Admin/images/aiwrap.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001099s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-31T16:13:37+08:00 ] 127.0.0.1 /Public/Admin/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001020s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-31T16:13:37+08:00 ] 127.0.0.1 /Public/Admin/js/echart.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-31T16:13:37+08:00 ] 127.0.0.1 /Public/Admin/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-31T16:13:38+08:00 ] 127.0.0.1 /Public/Admin/js/echart.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001003s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-31T16:13:38+08:00 ] 127.0.0.1 /Public/Admin/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-31T16:14:26+08:00 ] 127.0.0.1 /Public/Home/picture/nophoto.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001847s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-31T16:21:28+08:00 ] 127.0.0.1 /Public/Admin/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-31T16:21:28+08:00 ] 127.0.0.1 /Public/Admin/js/echart.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001328s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-31T16:21:28+08:00 ] 127.0.0.1 /Public/Admin/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-31T16:21:29+08:00 ] 127.0.0.1 /Public/Admin/js/echart.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001198s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-31T16:21:32+08:00 ] 127.0.0.1 /Public/Admin/js/echart.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001874s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-31T16:21:32+08:00 ] 127.0.0.1 /Public/Admin/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000124s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001095s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-31T18:43:06+08:00 ] 127.0.0.1 /Public/Home/picture/nophoto.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-31T18:57:53+08:00 ] 127.0.0.1 /Public/Home/picture/nophoto.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-31T18:58:59+08:00 ] 127.0.0.1 /Public/Home//Public/Home/css/style_2_common_7.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-31T18:58:59+08:00 ] 127.0.0.1 /Public/Home//Public/Home/css/style_2_portal_list_7.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-31T18:58:59+08:00 ] 127.0.0.1 /Public/Home//Public/Home/css/animate.min_7.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-31T18:58:59+08:00 ] 127.0.0.1 /Public/Home/picture/327a6422fdf3b4290a6d4f2095f1abdf_6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-31T18:58:59+08:00 ] 127.0.0.1 /Public/Home//Public/Home/css/animate.min_7.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-31T18:58:59+08:00 ] 127.0.0.1 /Public/Home/picture/aa8aa40a569e0c2d5803a2e337037e04_6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-31T18:58:59+08:00 ] 127.0.0.1 /Public/Home/picture/ddd1a8e299dfbc0605cb42c8d5ab1c39_7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000129s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005003s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-31T19:01:55+08:00 ] 127.0.0.1 /Public/Home/picture/nophoto.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-31T19:26:24+08:00 ] 127.0.0.1 /Public/Admin/js/index.js
+ERR: 无法加载模块:Public
+
+[ 2018-03-31T19:26:24+08:00 ] 127.0.0.1 /Public/Admin/js/echart.js
+ERR: 无法加载模块:Public
+
+[ 2018-03-31T19:26:24+08:00 ] 127.0.0.1 /Public/Admin/js/index.js
+ERR: 无法加载模块:Public
+
+[ 2018-03-31T19:26:24+08:00 ] 127.0.0.1 /Public/Admin/js/echart.js
+ERR: 无法加载模块:Public
+

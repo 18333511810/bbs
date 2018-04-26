@@ -1,0 +1,12 @@
+<?php 
+//密码加密函数
+function encrypt_password($password){
+	//加严
+	$mi ='dfnghffsfgggkjlkeoiuiasdvnkl';
+	return md5( md5($password) . $mi);
+}
+
+
+
+
+ ?>

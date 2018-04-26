@@ -1,0 +1,200 @@
+[ 2018-03-13T09:44:50+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065400s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.031200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.031200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-13T09:44:50+08:00 ] 127.0.0.1 /index.php/Admin/We/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.022001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.023001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.266614s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.266614s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-13T09:45:00+08:00 ] 127.0.0.1 /index.php/Admin/Comment/lis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-13T09:45:13+08:00 ] 127.0.0.1 /index.php/Admin/Banner/lis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-13T09:45:15+08:00 ] 127.0.0.1 /index.php/Admin/Banner/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-13T09:45:39+08:00 ] 127.0.0.1 /index.php/Admin/Comment/feedback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+<<<<<<< .mine
+[ 2018-03-13T10:26:35+08:00 ] 127.0.0.1 /index.php/Admin/Admin/rule
+ERR: 无法加载控制器:Admin
+
+[ 2018-03-13T14:32:22+08:00 ] 127.0.0.1 /index.php/Admin/Admin/rule-edit.html
+ERR: 非法操作:rule-edit
+
+[ 2018-03-13T14:37:14+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lib/layui/layui.js
+ERR: 非法操作:lib
+
+[ 2018-03-13T14:37:14+08:00 ] 127.0.0.1 /index.php/Admin/Admin/js/x-layui.js
+ERR: 非法操作:js
+
+[ 2018-03-13T14:37:22+08:00 ] 127.0.0.1 /index.php/Admin/Admin/rule-edit.html
+ERR: 非法操作:rule-edit
+
+[ 2018-03-13T14:37:52+08:00 ] 127.0.0.1 /index.php/Admin/Admin/rule_edit
+ERR: 模板不存在:./Application/Admin/View/Admin/link-edit.html.html
+
+[ 2018-03-13T19:56:04+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lib/layui/layui.js
+ERR: 非法操作:lib
+
+[ 2018-03-13T19:56:04+08:00 ] 127.0.0.1 /index.php/Admin/Admin/js/x-layui.js
+ERR: 非法操作:js
+
+[ 2018-03-13T20:14:39+08:00 ] 127.0.0.1 /index.php/Admin/Admin__/role_del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+ERR: 无法加载控制器:Admin__
+
+[ 2018-03-13T20:14:41+08:00 ] 127.0.0.1 /index.php/Admin/Admin__/role_del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+ERR: 无法加载控制器:Admin__
+
+[ 2018-03-13T20:15:18+08:00 ] 127.0.0.1 /index.php/Admin/Admin__/role_del
+ERR: 无法加载控制器:Admin__
+
+[ 2018-03-13T20:15:47+08:00 ] 127.0.0.1 /index.php/Admin/Admin/role_del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+SQL: SHOW COLUMNS FROM `bbs_role` [ RunTime:0.0103s ]
+
+[ 2018-03-13T20:15:50+08:00 ] 127.0.0.1 /index.php/Admin/Admin/role_del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+SQL: SHOW COLUMNS FROM `bbs_role` [ RunTime:0.0110s ]
+
+[ 2018-03-13T20:16:21+08:00 ] 127.0.0.1 /index.php/Admin/Admin/role_del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001008s ]
+SQL: SHOW COLUMNS FROM `bbs_role` [ RunTime:0.0113s ]
+SQL: DELETE FROM `bbs_role` WHERE `id` = 3 [ RunTime:0.0629s ]
+
+||||||| .r17
+[ 2018-03-13T10:26:35+08:00 ] 127.0.0.1 /index.php/Admin/Admin/rule
+ERR: 无法加载控制器:Admin
+
+[ 2018-03-13T14:32:22+08:00 ] 127.0.0.1 /index.php/Admin/Admin/rule-edit.html
+ERR: 非法操作:rule-edit
+
+[ 2018-03-13T14:37:14+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lib/layui/layui.js
+ERR: 非法操作:lib
+
+[ 2018-03-13T14:37:14+08:00 ] 127.0.0.1 /index.php/Admin/Admin/js/x-layui.js
+ERR: 非法操作:js
+
+[ 2018-03-13T14:37:22+08:00 ] 127.0.0.1 /index.php/Admin/Admin/rule-edit.html
+ERR: 非法操作:rule-edit
+
+[ 2018-03-13T14:37:52+08:00 ] 127.0.0.1 /index.php/Admin/Admin/rule_edit
+ERR: 模板不存在:./Application/Admin/View/Admin/link-edit.html.html
+
+=======
+>>>>>>> .r18

@@ -1,0 +1,26 @@
+<?php 
+namespace Admin\Controller;
+use Think\Controller;
+class ArticleController extends Controller{
+	public function lis(){
+		$data=D("Article")->alias('a')->field('a.id,a.titile,a.cate_id,a.content,u.name,a.createtime,a.pv')->join('left join bbs_user as u on a.user_id=u.id')->select();
+		$this->assign('data',$data);
+		$this->display('article-list');
+	}
+	public function add(){
+		if(IS_POST){
+			$data=I('post.');
+
+
+			$model=D('Article');
+		}
+		$user=D('User')->field('id,name')->select();
+		$type=D('forumtype')->field('id,name')->select();
+		$this->assign('user',$user);
+		$this->assign('type',$type);
+		$this->display('article-add');
+	}
+	public function edit(){
+		$this->display('article-edit');
+	}
+}

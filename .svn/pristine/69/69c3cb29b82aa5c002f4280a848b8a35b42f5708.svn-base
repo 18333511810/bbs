@@ -1,0 +1,23 @@
+<?php
+namespace Admin\Controller;
+use Think\Controller;
+class AdminController extends Controller{
+	public function lis(){
+		$this->display('admin-list');
+	}
+	public function add(){
+		$this->display('admin-add');
+	}
+	public function edit(){
+		$this->display('admin-add');
+	}
+	public function role(){
+		$this->display('admin-role');
+	}
+	public function cate(){
+		$this->display('admin-cate');
+	}
+	public function rule(){
+		$this->display('admin-rule');
+	}
+}

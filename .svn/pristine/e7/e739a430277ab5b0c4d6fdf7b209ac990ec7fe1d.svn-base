@@ -1,0 +1,720 @@
+[ 2018-03-10T13:33:55+08:00 ] ::1 /Public/Admin/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-10T13:33:55+08:00 ] ::1 /Public/Admin/js/echart.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-10T13:33:55+08:00 ] ::1 /Public/Admin/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-10T13:33:55+08:00 ] ::1 /Public/Admin/js/echart.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-10T13:33:55+08:00 ] ::1 /Public/Admin/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-10T13:34:40+08:00 ] 127.0.0.1 http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=A83B1775FD736C2D98E8E8340FAFFF21&v=8.8.0.1953&r=6965_sogou_pinyin_7.4.0.4502_6965.1418093056
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Api
+
+[ 2018-03-10T13:36:17+08:00 ] 127.0.0.1 http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=A83B1775FD736C2D98E8E8340FAFFF21&v=8.8.0.1953&r=6965_sogou_pinyin_7.4.0.4502_6965.1418093056
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Api
+
+[ 2018-03-10T14:05:57+08:00 ] 127.0.0.1 http://input.shouji.sogou.com/jsp/personalcenter/pcgettime.jsp?h=A83B1775FD736C2D98E8E8340FAFFF21&v=8.8.0.1953&r=6965_sogou_pinyin_7.4.0.4502_6965.1418093056&St=1&Ut=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Jsp
+
+[ 2018-03-10T14:06:08+08:00 ] 127.0.0.1 http://ime.sogou.com/version.txt?h=A83B1775FD736C2D98E8E8340FAFFF21&v=8.8.0.1953&r=6965_sogou_pinyin_7.4.0.4502_6965.1418093056&type=2&mc=EOPAOFCCEILDZ&proc=ugLUEwLUvxa*&pproc=zxHWBg9Yzxi*&uid=1&s=1&l=0&sd=0&mod=2&bdf=0&scc=1&uex=1&dus=354818533&cus=349060692&di=1&udim=0&dpv=0&dpt=0&dpvn=0&dptn=0&tsn=0&tcn=0&trn=8&msn=0&mcn=0&bsn=0&bcn=0&ess=1&crn=8&srn=5&opl=2%7C2%7C2%7C0%7C0%7C2&ops=0%7C0%7C0%7C0%7C0%7C0&opc=0%7C0%7C0%7C0%7C0%7C0&opr=0%7C0%7C8%7C0%7C0%7C0&set=0&cesi=1&rktfc=0&sysdf=20140716&sysdv=20171011&x64=1&pf=1&prcat=r2vUDwLUzuLUDgvS&prctp=000206A7&mhz=2194&mmb=8139&vo=393217&fvo=6.1.7601.23915&pvo=6.1.7601&ubt=1&btf=0&sodalibf=0&FcdUp=1&ChgSknTm=0&UDRep=0&fp=3%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0&ls=0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0&us=0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0&skbd=0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0&pcs=2%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0&ldf=0&wc=2&wc2=0&lt=2018-3-10.14%3A5%3A57&scr1=0/0&scr2=0/0&scr3=0/0&scr4=0/0&scr5=0/0&scr6=0/0&scr6m=0/0&bksp=21&csh=0&csel=0&ccancel=0&cfail=0&lcfail=0&creq=0&ccomb=0&csend=0&chit=0&csela=0&csac=0&csasc=0&lcsh=0&lcfsh=0&lcse=0&lcfse=0&outc=0&cad=0&cadf=0&saf=0&safs=0&abss=0&absf=0&absos=0&spedmex=&perfSM=33&perfST=0&perfSN=6&perfKM=0&perfKT=0&perfKN=184&perfUM=34&perfUT=0&perfUN=10589&perfAM=0&perfAT=0&perfAN=2&perfCM=3&perfCT=0&perfCN=6&perfCKM=0&perfCKT=0&perfCKN=6&perfCVM=0&perfCVT=0&perfCVN=0&perfLM=0&perfLT=0&perfLN=129&perfCSM=11&perfCST=0&perfCSN=6&s2=0&s3=0&s4=0&s5=0&s6=0&s7=0&s8=0&s9=0&qmb=0&qmbm=0&qmbt=4801&SknMd5=&SknId=&ClDct=-14108-14108-4-49111+60393&IgnrSknFntStng=0&IgnrSknFntSzStng=0&IgnrSknClrStng=0&StsAprnc=0&ImTr=1&QnPn=1&ShngPn=0&SprSPJP=1&UrlGd=1&QckInpt=1&MkNm=1&MhYn=0&MhTp=1&LstInptTm=0&CntBHFltr=0&CntBH=0&CntEngFl=0&CntEngInpt=0&CntNms=0&CntNrml=0&CntSpSw=0&CntTmpEng=0&CntUrlFl=0&CntVMd=0&InptStl=0&MlUrlFl=1&HdStsWhnFlScrn=1&UsClDct=1&ClDctAtUpt=1&UsrPhrs=1&AtUpdt=2&mid=y&MGO=0&MGP=0&MGQ=0&MGC=0&MGI=0&nat=1&flashctrlver=&sf=1&defBro=za**&6=1&B=9.11.9600.18920&lb=1&bd=1&I=1&O=1&tqe=1&sfsw=001&hipc=0&sknbx=0&psdt=0&psdtr=-1&olsw=0&olft=0&olsl=0&olslft=0&olbksp=0&olocc=0&br0=0&br1=0&br2=0&br3=0&br4=0&br5=0&br6=0&br7=0&sbcn=0%7C0%7C0%7C0%7C0%7C0%7C0%7C0&gfgc=0&gfsc=0&gfnbnc=0&clf=0&cpdam=0&cpen=0&udec=0&sdec=0&nks=6%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C21%7C23%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C&shew=5&slew=0&sheuw=0&sleuw=0&qies=0&qieu=0&urluse=0&urlshow=0&siii=0&sisr=0&sirs=0&sivr=0&sirc=0&hintshow=0&hintsel=0&hintclt=0&ss=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:1
+
+[ 2018-03-10T14:06:13+08:00 ] 127.0.0.1 http://ime.sogou.com/version.txt?h=A83B1775FD736C2D98E8E8340FAFFF21&v=8.8.0.1953&r=6965_sogou_pinyin_7.4.0.4502_6965.1418093056&type=2&mc=EOPAOFCCEILDZ&proc=ugLUEwLUvxa*&pproc=zxHWBg9Yzxi*&uid=1&s=1&l=0&sd=0&mod=2&bdf=0&scc=1&uex=1&dus=354818533&cus=349060692&di=1&udim=0&dpv=0&dpt=0&dpvn=0&dptn=0&tsn=0&tcn=0&trn=8&msn=0&mcn=0&bsn=0&bcn=0&ess=1&crn=8&srn=5&opl=2%7C2%7C2%7C0%7C0%7C2&ops=0%7C0%7C0%7C0%7C0%7C0&opc=0%7C0%7C0%7C0%7C0%7C0&opr=0%7C0%7C8%7C0%7C0%7C0&set=0&cesi=1&rktfc=0&sysdf=20140716&sysdv=20171011&x64=1&pf=1&prcat=r2vUDwLUzuLUDgvS&prctp=000206A7&mhz=2194&mmb=8139&vo=393217&fvo=6.1.7601.23915&pvo=6.1.7601&ubt=1&btf=0&sodalibf=0&FcdUp=1&ChgSknTm=0&UDRep=0&fp=3%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0&ls=0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0&us=0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0&skbd=0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0&pcs=2%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0&ldf=0&wc=2&wc2=0&lt=2018-3-10.14%3A5%3A57&scr1=0/0&scr2=0/0&scr3=0/0&scr4=0/0&scr5=0/0&scr6=0/0&scr6m=0/0&bksp=21&csh=0&csel=0&ccancel=0&cfail=0&lcfail=0&creq=0&ccomb=0&csend=0&chit=0&csela=0&csac=0&csasc=0&lcsh=0&lcfsh=0&lcse=0&lcfse=0&outc=0&cad=0&cadf=0&saf=0&safs=0&abss=0&absf=0&absos=0&spedmex=&perfSM=33&perfST=0&perfSN=6&perfKM=0&perfKT=0&perfKN=184&perfUM=34&perfUT=0&perfUN=10589&perfAM=0&perfAT=0&perfAN=2&perfCM=3&perfCT=0&perfCN=6&perfCKM=0&perfCKT=0&perfCKN=6&perfCVM=0&perfCVT=0&perfCVN=0&perfLM=0&perfLT=0&perfLN=129&perfCSM=11&perfCST=0&perfCSN=6&s2=0&s3=0&s4=0&s5=0&s6=0&s7=0&s8=0&s9=0&qmb=0&qmbm=0&qmbt=4801&SknMd5=&SknId=&ClDct=-14108-14108-4-49111+60393&IgnrSknFntStng=0&IgnrSknFntSzStng=0&IgnrSknClrStng=0&StsAprnc=0&ImTr=1&QnPn=1&ShngPn=0&SprSPJP=1&UrlGd=1&QckInpt=1&MkNm=1&MhYn=0&MhTp=1&LstInptTm=0&CntBHFltr=0&CntBH=0&CntEngFl=0&CntEngInpt=0&CntNms=0&CntNrml=0&CntSpSw=0&CntTmpEng=0&CntUrlFl=0&CntVMd=0&InptStl=0&MlUrlFl=1&HdStsWhnFlScrn=1&UsClDct=1&ClDctAtUpt=1&UsrPhrs=1&AtUpdt=2&mid=y&MGO=0&MGP=0&MGQ=0&MGC=0&MGI=0&nat=1&flashctrlver=&sf=1&defBro=za**&6=1&B=9.11.9600.18920&lb=1&bd=1&I=1&O=1&tqe=1&sfsw=001&hipc=0&sknbx=0&psdt=0&psdtr=-1&olsw=0&olft=0&olsl=0&olslft=0&olbksp=0&olocc=0&br0=0&br1=0&br2=0&br3=0&br4=0&br5=0&br6=0&br7=0&sbcn=0%7C0%7C0%7C0%7C0%7C0%7C0%7C0&gfgc=0&gfsc=0&gfnbnc=0&clf=0&cpdam=0&cpen=0&udec=0&sdec=0&nks=6%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C21%7C23%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C&shew=5&slew=0&sheuw=0&sleuw=0&qies=0&qieu=0&urluse=0&urlshow=0&siii=0&sisr=0&sirs=0&sivr=0&sirc=0&hintshow=0&hintsel=0&hintclt=0&ss=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:1
+
+[ 2018-03-10T14:06:17+08:00 ] 127.0.0.1 http://ime.sogou.com/version.txt?h=A83B1775FD736C2D98E8E8340FAFFF21&v=8.8.0.1953&r=6965_sogou_pinyin_7.4.0.4502_6965.1418093056&type=2&mc=EOPAOFCCEILDZ&proc=ugLUEwLUvxa*&pproc=zxHWBg9Yzxi*&uid=1&s=1&l=0&sd=0&mod=2&bdf=0&scc=1&uex=1&dus=354818533&cus=349060692&di=1&udim=0&dpv=0&dpt=0&dpvn=0&dptn=0&tsn=0&tcn=0&trn=8&msn=0&mcn=0&bsn=0&bcn=0&ess=1&crn=8&srn=5&opl=2%7C2%7C2%7C0%7C0%7C2&ops=0%7C0%7C0%7C0%7C0%7C0&opc=0%7C0%7C0%7C0%7C0%7C0&opr=0%7C0%7C8%7C0%7C0%7C0&set=0&cesi=1&rktfc=0&sysdf=20140716&sysdv=20171011&x64=1&pf=1&prcat=r2vUDwLUzuLUDgvS&prctp=000206A7&mhz=2194&mmb=8139&vo=393217&fvo=6.1.7601.23915&pvo=6.1.7601&ubt=1&btf=0&sodalibf=0&FcdUp=1&ChgSknTm=0&UDRep=0&fp=3%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0&ls=0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0&us=0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0&skbd=0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0&pcs=2%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0&ldf=0&wc=2&wc2=0&lt=2018-3-10.14%3A5%3A57&scr1=0/0&scr2=0/0&scr3=0/0&scr4=0/0&scr5=0/0&scr6=0/0&scr6m=0/0&bksp=21&csh=0&csel=0&ccancel=0&cfail=0&lcfail=0&creq=0&ccomb=0&csend=0&chit=0&csela=0&csac=0&csasc=0&lcsh=0&lcfsh=0&lcse=0&lcfse=0&outc=0&cad=0&cadf=0&saf=0&safs=0&abss=0&absf=0&absos=0&spedmex=&perfSM=33&perfST=0&perfSN=6&perfKM=0&perfKT=0&perfKN=184&perfUM=34&perfUT=0&perfUN=10589&perfAM=0&perfAT=0&perfAN=2&perfCM=3&perfCT=0&perfCN=6&perfCKM=0&perfCKT=0&perfCKN=6&perfCVM=0&perfCVT=0&perfCVN=0&perfLM=0&perfLT=0&perfLN=129&perfCSM=11&perfCST=0&perfCSN=6&s2=0&s3=0&s4=0&s5=0&s6=0&s7=0&s8=0&s9=0&qmb=0&qmbm=0&qmbt=4801&SknMd5=&SknId=&ClDct=-14108-14108-4-49111+60393&IgnrSknFntStng=0&IgnrSknFntSzStng=0&IgnrSknClrStng=0&StsAprnc=0&ImTr=1&QnPn=1&ShngPn=0&SprSPJP=1&UrlGd=1&QckInpt=1&MkNm=1&MhYn=0&MhTp=1&LstInptTm=0&CntBHFltr=0&CntBH=0&CntEngFl=0&CntEngInpt=0&CntNms=0&CntNrml=0&CntSpSw=0&CntTmpEng=0&CntUrlFl=0&CntVMd=0&InptStl=0&MlUrlFl=1&HdStsWhnFlScrn=1&UsClDct=1&ClDctAtUpt=1&UsrPhrs=1&AtUpdt=2&mid=y&MGO=0&MGP=0&MGQ=0&MGC=0&MGI=0&nat=1&flashctrlver=&sf=1&defBro=za**&6=1&B=9.11.9600.18920&lb=1&bd=1&I=1&O=1&tqe=1&sfsw=001&hipc=0&sknbx=0&psdt=0&psdtr=-1&olsw=0&olft=0&olsl=0&olslft=0&olbksp=0&olocc=0&br0=0&br1=0&br2=0&br3=0&br4=0&br5=0&br6=0&br7=0&sbcn=0%7C0%7C0%7C0%7C0%7C0%7C0%7C0&gfgc=0&gfsc=0&gfnbnc=0&clf=0&cpdam=0&cpen=0&udec=0&sdec=0&nks=6%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C21%7C23%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C&shew=5&slew=0&sheuw=0&sleuw=0&qies=0&qieu=0&urluse=0&urlshow=0&siii=0&sisr=0&sirs=0&sivr=0&sirc=0&hintshow=0&hintsel=0&hintclt=0&ss=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:1
+
+[ 2018-03-10T14:35:54+08:00 ] ::1 /Public/Admin/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-10T14:35:54+08:00 ] ::1 /Public/Admin/js/echart.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-10T14:35:54+08:00 ] ::1 /Public/Admin/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-10T14:35:54+08:00 ] ::1 /Public/Admin/js/echart.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-10T14:37:23+08:00 ] 127.0.0.1 http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=A83B1775FD736C2D98E8E8340FAFFF21&v=8.8.0.1953&r=6965_sogou_pinyin_7.4.0.4502_6965.1418093056
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Api
+
+[ 2018-03-10T14:38:27+08:00 ] 127.0.0.1 /Public/Admin/js/echart.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-10T14:38:27+08:00 ] 127.0.0.1 /Public/Admin/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-10T14:38:27+08:00 ] 127.0.0.1 /Public/Admin/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-10T14:38:27+08:00 ] 127.0.0.1 /Public/Admin/js/echart.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-10T14:38:55+08:00 ] ::1 /Public/Admin/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-10T14:38:55+08:00 ] ::1 /Public/Admin/js/echart.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-10T14:41:57+08:00 ] ::1 /category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Category
+
+[ 2018-03-10T14:49:41+08:00 ] ::1 /Public/Admin/js/echart.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-10T14:49:41+08:00 ] ::1 /Public/Admin/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-10T14:49:41+08:00 ] ::1 /Public/Admin/js/echart.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-10T14:51:55+08:00 ] ::1 /Public/Admin/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-10T14:51:55+08:00 ] ::1 /Public/Admin/js/echart.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-10T14:51:58+08:00 ] ::1 /Public/Admin/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-10T14:51:58+08:00 ] ::1 /Public/Admin/js/echart.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-10T14:51:58+08:00 ] ::1 /Public/Admin/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-10T14:51:58+08:00 ] ::1 /Public/Admin/js/echart.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-10T14:52:01+08:00 ] ::1 /Public/Admin/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-10T14:52:01+08:00 ] ::1 /Public/Admin/js/echart.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-10T14:52:06+08:00 ] ::1 /Public/Admin/js/echart.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-10T14:52:06+08:00 ] ::1 /Public/Admin/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-10T14:52:06+08:00 ] ::1 /Public/Admin/js/echart.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-10T15:26:28+08:00 ] 127.0.0.1 http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=A83B1775FD736C2D98E8E8340FAFFF21&v=8.8.0.1953&r=6965_sogou_pinyin_7.4.0.4502_6965.1418093056
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Api
+
+[ 2018-03-10T16:43:15+08:00 ] 127.0.0.1 http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=A83B1775FD736C2D98E8E8340FAFFF21&v=8.8.0.1953&r=6965_sogou_pinyin_7.4.0.4502_6965.1418093056
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Api
+
+[ 2018-03-10T16:43:55+08:00 ] ::1 /Public/Admin/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-10T16:43:55+08:00 ] ::1 /Public/Admin/js/echart.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-10T16:43:56+08:00 ] ::1 /Public/Admin/js/echart.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-10T16:48:49+08:00 ] ::1 /Public/Admin/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-10T16:48:49+08:00 ] ::1 /Public/Admin/js/echart.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-10T16:48:49+08:00 ] ::1 /Public/Admin/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-10T16:48:49+08:00 ] ::1 /Public/Admin/js/echart.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-10T16:48:49+08:00 ] ::1 /Public/Admin/js/echart.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-10T16:48:49+08:00 ] ::1 /Public/Admin/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-10T16:49:30+08:00 ] ::1 /Public/Admin/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-10T16:49:30+08:00 ] ::1 /Public/Admin/js/echart.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-10T16:49:30+08:00 ] ::1 /Public/Admin/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-10T16:49:30+08:00 ] ::1 /Public/Admin/js/echart.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-10T16:50:59+08:00 ] 127.0.0.1 http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=A83B1775FD736C2D98E8E8340FAFFF21&v=8.8.0.1953&r=6965_sogou_pinyin_7.4.0.4502_6965.1418093056
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Api
+
+[ 2018-03-10T16:54:51+08:00 ] 127.0.0.1 http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=A83B1775FD736C2D98E8E8340FAFFF21&v=8.8.0.1953&r=6965_sogou_pinyin_7.4.0.4502_6965.1418093056
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Api
+
+[ 2018-03-10T17:00:41+08:00 ] 127.0.0.1 http://www.sogou.com/imewis/msugg?ifc=4&em=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Imewis
+
+[ 2018-03-10T17:00:41+08:00 ] 127.0.0.1 http://info.pinyin.sogou.com/ime_push/file.php?from=smart&si=1&type=6&h=A83B1775FD736C2D98E8E8340FAFFF21&v=8.8.0.1953&r=6965_sogou_pinyin_7.4.0.4502_6965.1418093056
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ime_push
+
+[ 2018-03-10T17:00:42+08:00 ] 127.0.0.1 http://www.sogou.com/imewis/msugg?ifc=4&em=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Imewis
+
+[ 2018-03-10T17:00:43+08:00 ] 127.0.0.1 http://info.pinyin.sogou.com/ime_push/file.php?from=smart&si=1&type=6&h=A83B1775FD736C2D98E8E8340FAFFF21&v=8.8.0.1953&r=6965_sogou_pinyin_7.4.0.4502_6965.1418093056
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Ime_push
+
+[ 2018-03-10T17:00:43+08:00 ] 127.0.0.1 http://www.sogou.com/imewis/msugg?ifc=4&em=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Imewis
+
+[ 2018-03-10T17:00:43+08:00 ] 127.0.0.1 http://info.pinyin.sogou.com/ime_push/file.php?from=smart&si=1&type=6&h=A83B1775FD736C2D98E8E8340FAFFF21&v=8.8.0.1953&r=6965_sogou_pinyin_7.4.0.4502_6965.1418093056
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ime_push
+
+[ 2018-03-10T17:01:08+08:00 ] 127.0.0.1 http://www.sogou.com/imewis/msugg?ifc=4&em=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:Imewis
+
+[ 2018-03-10T17:01:08+08:00 ] 127.0.0.1 http://info.pinyin.sogou.com/ime_push/file.php?from=smart&si=1&type=6&h=A83B1775FD736C2D98E8E8340FAFFF21&v=8.8.0.1953&r=6965_sogou_pinyin_7.4.0.4502_6965.1418093056
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Ime_push
+
+[ 2018-03-10T17:03:10+08:00 ] 127.0.0.1 http://www.sogou.com/imewis/msugg?ifc=4&em=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Imewis
+
+[ 2018-03-10T17:03:10+08:00 ] 127.0.0.1 http://info.pinyin.sogou.com/ime_push/file.php?from=smart&si=1&type=6&h=A83B1775FD736C2D98E8E8340FAFFF21&v=8.8.0.1953&r=6965_sogou_pinyin_7.4.0.4502_6965.1418093056
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ime_push
+
+[ 2018-03-10T17:03:10+08:00 ] 127.0.0.1 http://www.sogou.com/imewis/msugg?ifc=4&em=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Imewis
+
+[ 2018-03-10T17:03:10+08:00 ] 127.0.0.1 http://info.pinyin.sogou.com/ime_push/file.php?from=smart&si=1&type=6&h=A83B1775FD736C2D98E8E8340FAFFF21&v=8.8.0.1953&r=6965_sogou_pinyin_7.4.0.4502_6965.1418093056
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Ime_push
+
+[ 2018-03-10T17:03:11+08:00 ] 127.0.0.1 http://www.sogou.com/imewis/msugg?ifc=4&em=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Imewis
+
+[ 2018-03-10T17:03:11+08:00 ] 127.0.0.1 http://info.pinyin.sogou.com/ime_push/file.php?from=smart&si=1&type=6&h=A83B1775FD736C2D98E8E8340FAFFF21&v=8.8.0.1953&r=6965_sogou_pinyin_7.4.0.4502_6965.1418093056
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ime_push
+
+[ 2018-03-10T17:03:11+08:00 ] 127.0.0.1 http://www.sogou.com/imewis/msugg?ifc=4&em=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Imewis
+
+[ 2018-03-10T17:03:11+08:00 ] 127.0.0.1 http://info.pinyin.sogou.com/ime_push/file.php?from=smart&si=1&type=6&h=A83B1775FD736C2D98E8E8340FAFFF21&v=8.8.0.1953&r=6965_sogou_pinyin_7.4.0.4502_6965.1418093056
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ime_push
+
+[ 2018-03-10T17:20:52+08:00 ] ::1 /Public/Admin/js/echart.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-10T17:20:52+08:00 ] ::1 /Public/Admin/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-10T17:20:52+08:00 ] ::1 /Public/Admin/js/echart.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-10T17:20:56+08:00 ] ::1 /Public/Admin/js/echart.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-10T17:20:56+08:00 ] ::1 /Public/Admin/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-10T17:20:56+08:00 ] ::1 /Public/Admin/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-10T17:20:56+08:00 ] ::1 /Public/Admin/js/echart.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-10T17:29:23+08:00 ] 127.0.0.1 http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=A83B1775FD736C2D98E8E8340FAFFF21&v=8.8.0.1953&r=6965_sogou_pinyin_7.4.0.4502_6965.1418093056
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Api
+
+[ 2018-03-10T18:01:44+08:00 ] 127.0.0.1 http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=A83B1775FD736C2D98E8E8340FAFFF21&v=8.8.0.1953&r=6965_sogou_pinyin_7.4.0.4502_6965.1418093056
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Api
+
+[ 2018-03-10T20:10:36+08:00 ] 127.0.0.1 http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=A83B1775FD736C2D98E8E8340FAFFF21&v=8.8.0.1953&r=6965_sogou_pinyin_7.4.0.4502_6965.1418093056
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Api
+
+[ 2018-03-10T20:53:28+08:00 ] 127.0.0.1 http://www.sogou.com/imewis/msugg?ifc=4&em=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Imewis
+
+[ 2018-03-10T20:53:28+08:00 ] 127.0.0.1 http://info.pinyin.sogou.com/ime_push/file.php?from=smart&si=1&type=6&h=A83B1775FD736C2D98E8E8340FAFFF21&v=8.8.0.1953&r=6965_sogou_pinyin_7.4.0.4502_6965.1418093056
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ime_push
+
+[ 2018-03-10T20:53:29+08:00 ] 127.0.0.1 http://www.sogou.com/imewis/msugg?ifc=4&em=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Imewis
+
+[ 2018-03-10T20:53:29+08:00 ] 127.0.0.1 http://info.pinyin.sogou.com/ime_push/file.php?from=smart&si=1&type=6&h=A83B1775FD736C2D98E8E8340FAFFF21&v=8.8.0.1953&r=6965_sogou_pinyin_7.4.0.4502_6965.1418093056
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ime_push
+
+[ 2018-03-10T20:53:37+08:00 ] 127.0.0.1 http://www.sogou.com/imewis/msugg?ifc=4&em=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Imewis
+
+[ 2018-03-10T20:53:37+08:00 ] 127.0.0.1 http://info.pinyin.sogou.com/ime_push/file.php?from=smart&si=1&type=6&h=A83B1775FD736C2D98E8E8340FAFFF21&v=8.8.0.1953&r=6965_sogou_pinyin_7.4.0.4502_6965.1418093056
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ime_push
+
+[ 2018-03-10T21:11:50+08:00 ] 127.0.0.1 http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=A83B1775FD736C2D98E8E8340FAFFF21&v=8.8.0.1953&r=6965_sogou_pinyin_7.4.0.4502_6965.1418093056
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Api
+
+[ 2018-03-10T22:15:06+08:00 ] 127.0.0.1 http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=A83B1775FD736C2D98E8E8340FAFFF21&v=8.8.0.1953&r=6965_sogou_pinyin_7.4.0.4502_6965.1418093056
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Api
+
+[ 2018-03-10T22:15:53+08:00 ] 127.0.0.1 http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=A83B1775FD736C2D98E8E8340FAFFF21&v=8.8.0.1953&r=6965_sogou_pinyin_7.4.0.4502_6965.1418093056
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Api
+
+[ 2018-03-10T22:21:06+08:00 ] 127.0.0.1 http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=A83B1775FD736C2D98E8E8340FAFFF21&v=8.8.0.1953&r=6965_sogou_pinyin_7.4.0.4502_6965.1418093056
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Api
+
+[ 2018-03-10T22:22:37+08:00 ] 127.0.0.1 http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=A83B1775FD736C2D98E8E8340FAFFF21&v=8.8.0.1953&r=6965_sogou_pinyin_7.4.0.4502_6965.1418093056
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Api
+
+[ 2018-03-10T22:22:56+08:00 ] 127.0.0.1 http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=A83B1775FD736C2D98E8E8340FAFFF21&v=8.8.0.1953&r=6965_sogou_pinyin_7.4.0.4502_6965.1418093056
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Api
+
+[ 2018-03-10T22:23:18+08:00 ] 127.0.0.1 http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=A83B1775FD736C2D98E8E8340FAFFF21&v=8.8.0.1953&r=6965_sogou_pinyin_7.4.0.4502_6965.1418093056
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Api
+
+[ 2018-03-10T22:24:28+08:00 ] 127.0.0.1 http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=A83B1775FD736C2D98E8E8340FAFFF21&v=8.8.0.1953&r=6965_sogou_pinyin_7.4.0.4502_6965.1418093056
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Api
+
+[ 2018-03-10T22:31:40+08:00 ] 127.0.0.1 http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=A83B1775FD736C2D98E8E8340FAFFF21&v=8.8.0.1953&r=6965_sogou_pinyin_7.4.0.4502_6965.1418093056
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+ERR: 无法加载模块:Api
+
+[ 2018-03-10T22:32:57+08:00 ] 127.0.0.1 http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=A83B1775FD736C2D98E8E8340FAFFF21&v=8.8.0.1953&r=6965_sogou_pinyin_7.4.0.4502_6965.1418093056
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Api
+
+[ 2018-03-10T22:34:47+08:00 ] 127.0.0.1 http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=A83B1775FD736C2D98E8E8340FAFFF21&v=8.8.0.1953&r=6965_sogou_pinyin_7.4.0.4502_6965.1418093056
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Api
+
+[ 2018-03-10T22:35:49+08:00 ] 127.0.0.1 http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=A83B1775FD736C2D98E8E8340FAFFF21&v=8.8.0.1953&r=6965_sogou_pinyin_7.4.0.4502_6965.1418093056
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Api
+
+[ 2018-03-10T22:39:05+08:00 ] 127.0.0.1 http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=A83B1775FD736C2D98E8E8340FAFFF21&v=8.8.0.1953&r=6965_sogou_pinyin_7.4.0.4502_6965.1418093056
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Api
+
+[ 2018-03-10T22:40:21+08:00 ] 127.0.0.1 http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=A83B1775FD736C2D98E8E8340FAFFF21&v=8.8.0.1953&r=6965_sogou_pinyin_7.4.0.4502_6965.1418093056
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Api
+
+[ 2018-03-10T22:59:21+08:00 ] 127.0.0.1 http://www.sogou.com/imewis/msugg?ifc=4&em=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Imewis
+
+[ 2018-03-10T22:59:21+08:00 ] 127.0.0.1 http://info.pinyin.sogou.com/ime_push/file.php?from=smart&si=1&type=6&h=A83B1775FD736C2D98E8E8340FAFFF21&v=8.8.0.1953&r=6965_sogou_pinyin_7.4.0.4502_6965.1418093056
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ime_push
+
+[ 2018-03-10T22:59:21+08:00 ] 127.0.0.1 http://www.sogou.com/imewis/msugg?ifc=4&em=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Imewis
+
+[ 2018-03-10T22:59:21+08:00 ] 127.0.0.1 http://info.pinyin.sogou.com/ime_push/file.php?from=smart&si=1&type=6&h=A83B1775FD736C2D98E8E8340FAFFF21&v=8.8.0.1953&r=6965_sogou_pinyin_7.4.0.4502_6965.1418093056
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ime_push
+
+[ 2018-03-10T22:59:21+08:00 ] 127.0.0.1 http://www.sogou.com/imewis/msugg?ifc=4&em=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Imewis
+
+[ 2018-03-10T22:59:21+08:00 ] 127.0.0.1 http://info.pinyin.sogou.com/ime_push/file.php?from=smart&si=1&type=6&h=A83B1775FD736C2D98E8E8340FAFFF21&v=8.8.0.1953&r=6965_sogou_pinyin_7.4.0.4502_6965.1418093056
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ime_push
+
+[ 2018-03-10T22:59:22+08:00 ] 127.0.0.1 http://www.sogou.com/imewis/msugg?ifc=4&em=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Imewis
+
+[ 2018-03-10T22:59:22+08:00 ] 127.0.0.1 http://info.pinyin.sogou.com/ime_push/file.php?from=smart&si=1&type=6&h=A83B1775FD736C2D98E8E8340FAFFF21&v=8.8.0.1953&r=6965_sogou_pinyin_7.4.0.4502_6965.1418093056
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ime_push
+
+[ 2018-03-10T22:59:22+08:00 ] 127.0.0.1 http://www.sogou.com/imewis/msugg?ifc=4&em=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Imewis
+
+[ 2018-03-10T22:59:23+08:00 ] 127.0.0.1 http://info.pinyin.sogou.com/ime_push/file.php?from=smart&si=1&type=6&h=A83B1775FD736C2D98E8E8340FAFFF21&v=8.8.0.1953&r=6965_sogou_pinyin_7.4.0.4502_6965.1418093056
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ime_push
+
+[ 2018-03-10T22:59:24+08:00 ] 127.0.0.1 http://www.sogou.com/imewis/msugg?ifc=4&em=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Imewis
+
+[ 2018-03-10T22:59:24+08:00 ] 127.0.0.1 http://www.sogou.com/imewis/msugg?ifc=4&em=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Imewis
+
+[ 2018-03-10T22:59:24+08:00 ] 127.0.0.1 http://info.pinyin.sogou.com/ime_push/file.php?from=smart&si=1&type=6&h=A83B1775FD736C2D98E8E8340FAFFF21&v=8.8.0.1953&r=6965_sogou_pinyin_7.4.0.4502_6965.1418093056
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ime_push
+
+[ 2018-03-10T22:59:24+08:00 ] 127.0.0.1 http://www.sogou.com/imewis/msugg?ifc=4&em=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Imewis
+
+[ 2018-03-10T22:59:24+08:00 ] 127.0.0.1 http://www.sogou.com/imewis/msugg?ifc=4&em=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Imewis
+
+[ 2018-03-10T22:59:24+08:00 ] 127.0.0.1 http://info.pinyin.sogou.com/ime_push/file.php?from=smart&si=1&type=6&h=A83B1775FD736C2D98E8E8340FAFFF21&v=8.8.0.1953&r=6965_sogou_pinyin_7.4.0.4502_6965.1418093056
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ime_push
+
+[ 2018-03-10T22:59:24+08:00 ] 127.0.0.1 http://info.pinyin.sogou.com/ime_push/file.php?from=smart&si=1&type=6&h=A83B1775FD736C2D98E8E8340FAFFF21&v=8.8.0.1953&r=6965_sogou_pinyin_7.4.0.4502_6965.1418093056
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ime_push
+
+[ 2018-03-10T22:59:24+08:00 ] 127.0.0.1 http://www.sogou.com/imewis/msugg?ifc=4&em=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Imewis
+
+[ 2018-03-10T22:59:24+08:00 ] 127.0.0.1 http://info.pinyin.sogou.com/ime_push/file.php?from=smart&si=1&type=6&h=A83B1775FD736C2D98E8E8340FAFFF21&v=8.8.0.1953&r=6965_sogou_pinyin_7.4.0.4502_6965.1418093056
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ime_push
+
+[ 2018-03-10T22:59:24+08:00 ] 127.0.0.1 http://www.sogou.com/imewis/msugg?ifc=4&em=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Imewis
+

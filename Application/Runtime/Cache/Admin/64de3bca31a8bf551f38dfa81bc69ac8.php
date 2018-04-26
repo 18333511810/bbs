@@ -1,0 +1,133 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>
+            阳光成单系统
+        </title>
+        <meta name="renderer" content="webkit">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="format-detection" content="telephone=no">
+        <link rel="stylesheet" href="/Public/Admin/css/x-admin.css" media="all">
+    </head>
+    
+    <body>
+        <div class="x-body">
+            <form class="layui-form">
+            <input type="hidden" id='id' value="<?php echo ($data["id"]); ?>"></input>
+                <div class="layui-form-item">
+                    <label for="name" class="layui-form-label">
+                        <span class="x-red">*</span>权限名
+                    </label>
+                    <div class="layui-input-inline">
+                        <input type="text" id="name" name="name" required="" lay-verify="required"
+                        autocomplete="off"  value="<?php echo ($data["auth_name"]); ?>" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label for="link" class="layui-form-label">
+                        <span class="x-red">*</span>控制器
+                    </label>
+                    <div class="layui-input-inline">
+                        <input type="text" id="contro" name="link" required="" lay-verify="required"
+                        autocomplete="off" value="<?php echo ($data["contro"]); ?>" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label for="link" class="layui-form-label">
+                        <span class="x-red">*</span>方法
+                    </label>
+                    <div class="layui-input-inline">
+                        <input type="text" id="method" name="link" required="" 
+                        autocomplete="off" value="<?php echo ($data["method"]); ?>" class="layui-input">
+                    </div>
+                </div>
+                 <div class="layui-form-item">
+                    <label for="link" class="layui-form-label">
+                        <span class="x-red">*</span>是否展示
+                    </label>
+                    <div class="layui-input-inline">
+                        <input type="text" id="shows" name="link" required="" lay-verify="required"
+                        autocomplete="off" value="<?php echo ($data["shows"]); ?>" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label for="L_repass" class="layui-form-label">
+                    </label>
+                    <button  class="layui-btn" lay-filter="save" lay-submit="">
+                        保存
+                    </button>
+                </div>
+            </form>
+        </div>
+        <script src="/Public/Admin/lib/layui/layui.js" charset="utf-8">
+        </script>
+        <script src="/Public/Admin/js/x-layui.js" charset="utf-8">
+        </script>
+         <script src="/Public/Admin/js/jquery-1.8.1.min.js" charset="utf-8">
+        </script>
+        <script>
+            layui.use(['form','layer'], function(){
+                $ = layui.jquery;
+              var form = layui.form()
+              ,layer = layui.layer;
+            
+
+              //监听提交
+              form.on('submit(save)', function(data){
+                console.log(data);
+                var name=$('#name').val();
+                var contro=$('#contro').val();
+                var method=$('#method').val();
+                var shows=$('#shows').val();
+                var id=$('#id').val();
+                var data1={
+                    'id':id,
+                    'auth_name':name,
+                    'contro':contro,
+                    'method':method,
+                    'shows':shows,
+                }
+                console.log(data1);
+                 $.ajax({
+                'url':'/index.php/Admin/Admin/rule_edit',
+                'type':'post',
+                'data': data1,
+                'datatype':'json',
+                'success':function(response){
+                    if (response.code==10000) {
+                        layer.alert("修改成功", {icon: 6},function () {
+                        // 获得frame索引
+                        var index = parent.layer.getFrameIndex(window.name);
+                        //关闭当前frame
+                        parent.layer.close(index);
+                    });
+                    }else{
+                       layer.alert("修改失败", {icon: 6},function () {
+                        // 获得frame索引
+                        var index = parent.layer.getFrameIndex(window.name);
+                        //关闭当前frame
+                        parent.layer.close(index);
+                    });
+                    }
+                }
+            });
+
+
+
+                //发异步，把数据提交给php
+               
+                return false;
+              });
+              
+              
+            });
+        </script>
+        
+    </body>
+
+</html>

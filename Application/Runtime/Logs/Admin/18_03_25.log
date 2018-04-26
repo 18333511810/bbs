@@ -1,0 +1,247 @@
+[ 2018-03-25T14:07:32+08:00 ] 127.0.0.1 /Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+
+[ 2018-03-25T14:07:32+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2018-03-25T14:07:39+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+SQL: SHOW COLUMNS FROM `bbs_admin` [ RunTime:0.0956s ]
+SQL: SELECT * FROM `bbs_admin` WHERE `admin_name` = 'admin' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036492s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000599s ]
+
+[ 2018-03-25T14:07:39+08:00 ] 127.0.0.1 /index.php/Admin/Public/js/x-layui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+ERR: 无法加载控制器:Public
+
+[ 2018-03-25T14:07:39+08:00 ] 127.0.0.1 /index.php/Admin/Public/js/x-admin.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+ERR: 无法加载控制器:Public
+
+[ 2018-03-25T14:07:41+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `bbs_auth` [ RunTime:0.0818s ]
+SQL: SELECT * FROM `bbs_auth` WHERE ( pid=0 and shows=0 )  [ RunTime:0.0108s ]
+SQL: SELECT * FROM `bbs_auth` WHERE ( pid>0 and shows=0 )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032751s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000559s ]
+
+[ 2018-03-25T14:07:42+08:00 ] 127.0.0.1 /index.php/Admin/We/index?a=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000923s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+SQL: SHOW COLUMNS FROM `bbs_auth` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `bbs_auth` WHERE ( pid=0 and shows=0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `bbs_auth` WHERE ( pid>0 and shows=0 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007169s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007218s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000892s ]
+
+[ 2018-03-25T14:07:46+08:00 ] 127.0.0.1 /index.php/Admin/Article/lis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `bbs_auth` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `bbs_auth` WHERE ( pid=0 and shows=0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `bbs_auth` WHERE ( pid>0 and shows=0 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `bbs_article` [ RunTime:0.0696s ]
+SQL: SELECT a.id,a.titile,a.cate_id,a.content,u.name,a.createtime,a.pv FROM bbs_article a left join bbs_user as u on a.user_id=u.id   [ RunTime:0.0889s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038958s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039020s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000655s ]
+
+[ 2018-03-25T14:07:50+08:00 ] 127.0.0.1 /index.php/Admin/Article/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+SQL: SHOW COLUMNS FROM `bbs_auth` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `bbs_auth` WHERE ( pid=0 and shows=0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `bbs_auth` WHERE ( pid>0 and shows=0 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `bbs_article` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `bbs_article` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bbs_forumtype` [ RunTime:0.0387s ]
+SQL: SELECT * FROM `bbs_forumtype`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `bbs_user` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `bbs_user`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025371s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000684s ]
+
+[ 2018-03-25T14:07:54+08:00 ] 127.0.0.1 /index.php/Admin/Article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+SQL: SHOW COLUMNS FROM `bbs_auth` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `bbs_auth` WHERE ( pid=0 and shows=0 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `bbs_auth` WHERE ( pid>0 and shows=0 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `bbs_user` [ RunTime:0.0037s ]
+SQL: SELECT `id`,`name` FROM `bbs_user`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `bbs_forumtype` [ RunTime:0.0043s ]
+SQL: SELECT `id`,`name` FROM `bbs_forumtype`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062902s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000470s ]
+
+[ 2018-03-25T14:08:00+08:00 ] 127.0.0.1 /index.php/Admin/Article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001186s ]
+SQL: SHOW COLUMNS FROM `bbs_auth` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `bbs_auth` WHERE ( pid=0 and shows=0 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `bbs_auth` WHERE ( pid>0 and shows=0 )  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: user_id I:\www\bbs\Application\Admin\Controller\ArticleController.class.php 第 19 行.
+NOTIC: [8] Undefined index: title I:\www\bbs\Application\Admin\Controller\ArticleController.class.php 第 20 行.
+NOTIC: [8] Undefined index: content I:\www\bbs\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+NOTIC: [8] Undefined index: cate_id I:\www\bbs\Application\Admin\Controller\ArticleController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `bbs_article` [ RunTime:0.0039s ]
+ERR: 1048:Column 'titile' cannot be null
+ [ SQL语句 ] : INSERT INTO `bbs_article` (`user_id`,`titile`,`content`,`createtime`,`cate_id`,`uptime`) VALUES ('0',NULL,NULL,'2018-03-25 14:08:00','0','2018-03-25 14:08:00')
+ERR: 1048:Column 'titile' cannot be null
+ [ SQL语句 ] : INSERT INTO `bbs_article` (`user_id`,`titile`,`content`,`createtime`,`cate_id`,`uptime`) VALUES ('0',NULL,NULL,'2018-03-25 14:08:00','0','2018-03-25 14:08:00')
+
+[ 2018-03-25T14:08:58+08:00 ] 127.0.0.1 /index.php/Admin/Article/upload.json
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+SQL: SHOW COLUMNS FROM `bbs_auth` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `bbs_auth` WHERE ( pid=0 and shows=0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `bbs_auth` WHERE ( pid>0 and shows=0 )  [ RunTime:0.0006s ]
+ERR: 非法操作:upload.json
+
+[ 2018-03-25T14:14:24+08:00 ] 127.0.0.1 /index.php/Admin/Article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000933s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001458s ]
+SQL: SHOW COLUMNS FROM `bbs_auth` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `bbs_auth` WHERE ( pid=0 and shows=0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `bbs_auth` WHERE ( pid>0 and shows=0 )  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: user_id I:\www\bbs\Application\Admin\Controller\ArticleController.class.php 第 19 行.
+NOTIC: [8] Undefined index: title I:\www\bbs\Application\Admin\Controller\ArticleController.class.php 第 20 行.
+NOTIC: [8] Undefined index: content I:\www\bbs\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+NOTIC: [8] Undefined index: cate_id I:\www\bbs\Application\Admin\Controller\ArticleController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `bbs_article` [ RunTime:0.0038s ]
+ERR: 1048:Column 'titile' cannot be null
+ [ SQL语句 ] : INSERT INTO `bbs_article` (`user_id`,`titile`,`content`,`createtime`,`cate_id`,`uptime`) VALUES ('0',NULL,NULL,'2018-03-25 14:14:24','0','2018-03-25 14:14:24')
+ERR: 1048:Column 'titile' cannot be null
+ [ SQL语句 ] : INSERT INTO `bbs_article` (`user_id`,`titile`,`content`,`createtime`,`cate_id`,`uptime`) VALUES ('0',NULL,NULL,'2018-03-25 14:14:24','0','2018-03-25 14:14:24')
+

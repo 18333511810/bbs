@@ -1,0 +1,45 @@
+<?php
+namespace Admin\Controller;
+use Think\Controller;
+class UserController extends Controller{
+	public function lis(){
+		$this->display('member-list');
+	}
+	public function add(){
+		$this->display('member-add');
+	}
+	public function edit(){
+			$this->display('member-edit');
+	}
+	public function password(){
+			$this->display('member-password');
+	}
+	public function del(){
+			$this->display('member-del');
+	}
+	public function level(){
+			$this->display('member-level');
+	}
+	public function kiss(){
+			$this->display('member-kiss');
+	}
+	public function view(){
+			$this->display('member-view');
+	}
+	public function kissadd(){
+			$this->display('kiss-add');
+	}
+	public function kissedit(){
+			$this->display('kiss-edit');
+	}
+	public function show(){
+			$this->display('member-show');
+	}
+	public function leveladd(){
+			$this->display('level-add');
+	}
+	public function leveledit(){
+			$this->display('level-edit');
+	}
+	
+}

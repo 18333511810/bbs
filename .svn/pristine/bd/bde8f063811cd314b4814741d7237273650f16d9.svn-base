@@ -1,0 +1,14 @@
+<?php 
+namespace Admin\Controller;
+use Think\Controller;
+class ArticleController extends Controller{
+	public function lis(){
+		$this->display('article-list');
+	}
+	public function add(){
+		$this->display('article-add');
+	}
+	public function edit(){
+		$this->display('article-edit');
+	}
+}

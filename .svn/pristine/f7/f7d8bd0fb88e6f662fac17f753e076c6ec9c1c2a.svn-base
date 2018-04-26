@@ -1,0 +1,12 @@
+<?php 
+namespace Admin\Model;
+use Think\Model;
+class ArticleModel extends Model{
+	public function lis(){
+		
+
+		// dump($data);die;
+		// $this->assign('data',$data);
+		// $this->display();
+	}
+}

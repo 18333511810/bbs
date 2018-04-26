@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>
+            阳光成单系统
+        </title>
+        <meta name="renderer" content="webkit">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="format-detection" content="telephone=no">
+        <link rel="stylesheet" href="__PUBLIC__/Admin/css/x-admin.css" media="all">
+    </head>
+    <body>
+        <div class="x-body">
+            <form action="" method="post" class="layui-form layui-form-pane">
+                <div class="layui-form-item">
+                    <label for="name" class="layui-form-label">
+                        <span class="x-red">*</span>角色名
+                    </label>
+                    <div class="layui-input-inline">
+                        <input type="text" id="name" name="name" required="" lay-verify="required"
+                        autocomplete="off" class="layui-input" value='{$role_name}'> 
+                        <input type="hidden" id="roleid" value="{$id}">
+                    </div>
+                </div>
+                <div class="layui-form-item layui-form-text">
+                    <label class="layui-form-label">
+                        拥有权限
+                    </label>
+                    <table  class="layui-table layui-input-block">
+                        <tbody>
+                              <volist name= 'data' id='v'>
+                            <tr>
+                                <td top='{$v.id}'>
+                                {$v.auth_name}
+                                </td>
+                                <td>
+                                    <div class="layui-input-block">
+                                    <volist name= 'data1' id='i'>
+                                        <if condition="$v.id eq $i.pid ">
+                                        <input name="id[]" type="checkbox" value="{$v.contro}-{$i.method}" role_id='{$i.id}' class='check' <in name='i.id' value='$role'> checked=''</in>> {$i.auth_name}
+                                        </if>
+                                    </volist>
+                                    </div>
+                                </td>
+                            </tr>
+                        </volist>      
+                        </tbody>
+                    </table>
+                </div>
+                
+                <div class="layui-form-item">
+                <button class="layui-btn" lay-submit="" lay-filter="add">修改</button>
+              </div>
+            </form>
+        </div>
+        <script src="__PUBLIC__/Admin/lib/layui/layui.js" charset="utf-8">
+        </script>
+        <script src="__PUBLIC__/Admin/js/x-layui.js" charset="utf-8">
+        </script>
+        <script src="__PUBLIC__/Admin/js/jquery-1.8.1.min.js" charset="utf-8"></script>
+        <script>
+            layui.use(['form','layer'], function(){
+                $ = layui.jquery;
+              var form = layui.form()
+              ,layer = layui.layer;
+
+              //监听提交
+              form.on('submit(add)', function(data){
+                var check=$('.layui-form-checked').prev();
+                var top=$('.layui-form-checked').closest('tr').find('td');
+                var auth='';
+                var id='';
+                var top_id='';
+                check.each(function(index, el) {
+                     auth+=','+$(this).val();
+                });
+                top.each(function(index, el){
+                    if ($(this).attr('top')!=undefined) {
+                        top_id+=','+$(this).attr('top');
+                    }
+                    
+                })
+                top_id=top_id.substr(1);
+                check.each(function(index, el) {
+                    id+=','+$(this).attr('role_id');
+                }); 
+                auth=auth.substr(1);
+                 id=top_id+id;
+                var name=$('#name').val();
+                var roleid=$('#roleid').val();
+               $.ajax({
+                    'url':'__CONTROLLER__/role_edit',
+                    'type':'post',
+                    'data': {'auth_id':id,'auth':auth,'role_name':name,'id':roleid},
+                    'datatype':'json',
+                    'success':function(response){
+                        if (response.code==10000) {
+                             //发异步，把数据提交给php
+                            layer.alert("修改成功", {icon: 6},function () {
+                            // 获得frame索引
+                            var index = parent.layer.getFrameIndex(window.name);
+                             parent.location.href = '__CONTROLLER__/role';
+                            //关闭当前frame
+                             parent.layer.close(index);
+                            });
+                        }else{
+                               //发异步，把数据提交给php
+                            layer.alert("修改失败", {icon: 6},function () {
+                            // 获得frame索引
+                            var index = parent.layer.getFrameIndex(window.name);
+                            //关闭当前frame
+                             parent.layer.close(index);
+                            });
+
+                        }
+
+                    }
+                });
+                return false;
+              });
+              
+            });
+           
+        </script>
+       
+        
+    </body>
+
+</html>

@@ -1,0 +1,193 @@
+[ 2018-03-14T08:50:11+08:00 ] 127.0.0.1 /Public/Admin/js/echart.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-14T08:50:11+08:00 ] 127.0.0.1 /Public/Admin/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-14T08:50:11+08:00 ] 127.0.0.1 /Public/Admin/js/echart.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-14T08:50:11+08:00 ] 127.0.0.1 /Public/Admin/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-14T09:32:28+08:00 ] 127.0.0.1 /Public/Admin/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001333s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-14T09:32:28+08:00 ] 127.0.0.1 /Public/Admin/js/echart.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-14T09:42:30+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+ERR: 无法加载模块:Favicon
+
+[ 2018-03-14T15:27:58+08:00 ] 127.0.0.1 /Public/Admin/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-14T15:27:58+08:00 ] 127.0.0.1 /Public/Admin/js/echart.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001895s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-14T15:27:58+08:00 ] 127.0.0.1 /Public/Admin/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-14T15:27:58+08:00 ] 127.0.0.1 /Public/Admin/js/echart.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-14T16:53:55+08:00 ] 127.0.0.1 /Public/Admin/js/index.js
+ERR: 无法加载模块:Public
+
+
+[ 2018-03-14T16:53:55+08:00 ] 127.0.0.1 /Public/Admin/js/index.js
+ERR: 无法加载模块:Public
+
+[ 2018-03-14T16:53:55+08:00 ] 127.0.0.1 /Public/Admin/js/echart.js
+ERR: 无法加载模块:Public
+
+[ 2018-03-14T16:57:37+08:00 ] 127.0.0.1 /Public/Admin/js/index.js
+ERR: 无法加载模块:Public
+
+[ 2018-03-14T16:57:37+08:00 ] 127.0.0.1 /Public/Admin/js/echart.js
+ERR: 无法加载模块:Public
+
+[ 2018-03-14T17:14:04+08:00 ] 127.0.0.1 /Public/Admin/js/index.js
+ERR: 无法加载模块:Public
+
+[ 2018-03-14T17:14:04+08:00 ] 127.0.0.1 /Public/Admin/js/echart.js
+ERR: 无法加载模块:Public
+
+[ 2018-03-14T17:17:48+08:00 ] 127.0.0.1 /Public/Admin/js/index.js
+ERR: 无法加载模块:Public
+
+[ 2018-03-14T17:17:48+08:00 ] 127.0.0.1 /Public/Admin/js/echart.js
+ERR: 无法加载模块:Public
+
+[ 2018-03-14T17:17:48+08:00 ] 127.0.0.1 /Public/Admin/js/index.js
+ERR: 无法加载模块:Public
+
+[ 2018-03-14T17:17:48+08:00 ] 127.0.0.1 /Public/Admin/js/echart.js
+ERR: 无法加载模块:Public
+
+[ 2018-03-14T17:19:07+08:00 ] 127.0.0.1 /Public/Admin/js/index.js
+ERR: 无法加载模块:Public
+
+[ 2018-03-14T17:19:07+08:00 ] 127.0.0.1 /Public/Admin/js/echart.js
+ERR: 无法加载模块:Public
+
+[ 2018-03-14T17:19:07+08:00 ] 127.0.0.1 /Public/Admin/js/index.js
+ERR: 无法加载模块:Public
+
+[ 2018-03-14T17:19:07+08:00 ] 127.0.0.1 /Public/Admin/js/echart.js
+ERR: 无法加载模块:Public
+
+[ 2018-03-14T17:20:51+08:00 ] 127.0.0.1 /Public/Admin/js/echart.js
+ERR: 无法加载模块:Public
+
+[ 2018-03-14T18:32:53+08:00 ] 127.0.0.1 /Public/Admin/js/index.js
+ERR: 无法加载模块:Public
+
+[ 2018-03-14T18:32:53+08:00 ] 127.0.0.1 /Public/Admin/js/echart.js
+ERR: 无法加载模块:Public
+
+[ 2018-03-14T18:32:53+08:00 ] 127.0.0.1 /Public/Admin/js/index.js
+ERR: 无法加载模块:Public
+
+[ 2018-03-14T18:32:53+08:00 ] 127.0.0.1 /Public/Admin/js/echart.js
+ERR: 无法加载模块:Public
+
+[ 2018-03-14T18:54:40+08:00 ] 127.0.0.1 /Public/Admin/js/index.js
+ERR: 无法加载模块:Public
+
+[ 2018-03-14T18:54:40+08:00 ] 127.0.0.1 /Public/Admin/js/echart.js
+ERR: 无法加载模块:Public
+
+[ 2018-03-14T18:54:41+08:00 ] 127.0.0.1 /Public/Admin/js/index.js
+ERR: 无法加载模块:Public
+
+[ 2018-03-14T18:54:41+08:00 ] 127.0.0.1 /Public/Admin/js/echart.js
+ERR: 无法加载模块:Public
+
+[ 2018-03-14T18:54:41+08:00 ] 127.0.0.1 /Public/Admin/favicon.ico
+ERR: 无法加载模块:Public
+
+[ 2018-03-14T19:00:36+08:00 ] 127.0.0.1 /Public/Admin/js/index.js
+ERR: 无法加载模块:Public
+
+[ 2018-03-14T19:00:36+08:00 ] 127.0.0.1 /Public/Admin/js/echart.js
+ERR: 无法加载模块:Public
+
+[ 2018-03-14T19:01:54+08:00 ] 127.0.0.1 /Public/Admin/js/index.js
+ERR: 无法加载模块:Public
+
+[ 2018-03-14T19:01:54+08:00 ] 127.0.0.1 /Public/Admin/js/echart.js
+ERR: 无法加载模块:Public
+
+[ 2018-03-14T19:19:13+08:00 ] 127.0.0.1 /Public/Admin/js/index.js
+ERR: 无法加载模块:Public
+
+[ 2018-03-14T19:19:13+08:00 ] 127.0.0.1 /Public/Admin/js/echart.js
+ERR: 无法加载模块:Public
+
+[ 2018-03-14T19:19:13+08:00 ] 127.0.0.1 /Public/Admin/js/index.js
+ERR: 无法加载模块:Public
+
+[ 2018-03-14T19:19:13+08:00 ] 127.0.0.1 /Public/Admin/js/echart.js
+ERR: 无法加载模块:Public
+
+[ 2018-03-14T19:22:27+08:00 ] 127.0.0.1 /Public/Admin/js/index.js
+ERR: 无法加载模块:Public
+
+[ 2018-03-14T19:22:27+08:00 ] 127.0.0.1 /Public/Admin/js/echart.js
+ERR: 无法加载模块:Public
+
+[ 2018-03-14T19:25:30+08:00 ] 127.0.0.1 /Public/Admin/js/index.js
+ERR: 无法加载模块:Public
+
+[ 2018-03-14T19:25:30+08:00 ] 127.0.0.1 /Public/Admin/js/echart.js
+ERR: 无法加载模块:Public
+
+[ 2018-03-14T19:29:43+08:00 ] 127.0.0.1 /favicon.ico
+ERR: 无法加载模块:Favicon
+
+[ 2018-03-14T19:40:19+08:00 ] 127.0.0.1 /Public/Admin/js/index.js
+ERR: 无法加载模块:Public
+
+[ 2018-03-14T19:40:19+08:00 ] 127.0.0.1 /Public/Admin/js/echart.js
+ERR: 无法加载模块:Public
+
+[ 2018-03-14T19:40:20+08:00 ] 127.0.0.1 /Public/Admin/js/index.js
+ERR: 无法加载模块:Public
+
+[ 2018-03-14T19:40:20+08:00 ] 127.0.0.1 /Public/Admin/js/echart.js
+ERR: 无法加载模块:Public
+

@@ -1,0 +1,18 @@
+[ 2018-04-07T01:56:15+08:00 ] 127.0.0.1 /Public/Home/picture/nophoto.gif
+ERR: 无法加载模块:Public
+
+[ 2018-04-07T01:58:39+08:00 ] 127.0.0.1 /Public/Home/picture/nophoto.gif
+ERR: 无法加载模块:Public
+
+[ 2018-04-07T22:57:00+08:00 ] 127.0.0.1 /Public/Home/picture/nophoto.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+ERR: 无法加载模块:Public
+
+[ 2018-04-07T22:57:04+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001430s ]
+ERR: 无法加载模块:Favicon
+

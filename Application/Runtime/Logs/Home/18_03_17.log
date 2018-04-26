@@ -1,0 +1,148 @@
+[ 2018-03-17T10:49:20+08:00 ] 127.0.0.1 /home/__PUBLIC__/Home/css/style_2_common_8.css
+ERR: 无法加载控制器:__PUBLIC__
+
+[ 2018-03-17T10:49:20+08:00 ] 127.0.0.1 /home/__PUBLIC__/Home/js/portal_8.js
+ERR: 无法加载控制器:__PUBLIC__
+
+[ 2018-03-17T10:49:20+08:00 ] 127.0.0.1 /home/__PUBLIC__/Home/js/deanactions.min_8.js
+ERR: 无法加载控制器:__PUBLIC__
+
+[ 2018-03-17T10:49:20+08:00 ] 127.0.0.1 /home/__PUBLIC__/Home/js/common_8.js
+ERR: 无法加载控制器:__PUBLIC__
+
+[ 2018-03-17T10:49:20+08:00 ] 127.0.0.1 /home/__PUBLIC__/Home/css/animate.min_8.css
+ERR: 无法加载控制器:__PUBLIC__
+
+[ 2018-03-17T10:49:20+08:00 ] 127.0.0.1 /home/__PUBLIC__/Home/css/style_2_portal_index_2.css
+ERR: 无法加载控制器:__PUBLIC__
+
+[ 2018-03-17T10:49:20+08:00 ] 127.0.0.1 /home/__PUBLIC__/Home/js/jpages_8.js
+ERR: 无法加载控制器:__PUBLIC__
+
+[ 2018-03-17T10:49:20+08:00 ] 127.0.0.1 /home/__PUBLIC__/Home/js/jquery-1.8.3.min_8.js
+ERR: 无法加载控制器:__PUBLIC__
+
+[ 2018-03-17T10:49:21+08:00 ] 127.0.0.1 /home/__PUBLIC__/Home/js/jquery.superslide.2.1.1_8.js
+ERR: 无法加载控制器:__PUBLIC__
+
+[ 2018-03-17T10:49:21+08:00 ] 127.0.0.1 /home/__PUBLIC__/Home/js/common_8.js
+ERR: 无法加载控制器:__PUBLIC__
+
+[ 2018-03-17T10:49:21+08:00 ] 127.0.0.1 /home/__PUBLIC__/Home/js/nv_8.js
+ERR: 无法加载控制器:__PUBLIC__
+
+[ 2018-03-17T10:49:21+08:00 ] 127.0.0.1 /home/__PUBLIC__/Home/js/portal_8.js
+ERR: 无法加载控制器:__PUBLIC__
+
+[ 2018-03-17T10:49:21+08:00 ] 127.0.0.1 /home/__PUBLIC__/Home/js/jquery.flexslider-min_2.js
+ERR: 无法加载控制器:__PUBLIC__
+
+[ 2018-03-17T10:49:21+08:00 ] 127.0.0.1 /home/__PUBLIC__/Home/js/jquery-1.8.3.min_8.js
+ERR: 无法加载控制器:__PUBLIC__
+
+[ 2018-03-17T10:49:21+08:00 ] 127.0.0.1 /home/__PUBLIC__/Home/js/home_8.js
+ERR: 无法加载控制器:__PUBLIC__
+
+[ 2018-03-17T10:49:21+08:00 ] 127.0.0.1 /home/__PUBLIC__/Home/js/deanactions.min_8.js
+ERR: 无法加载控制器:__PUBLIC__
+
+[ 2018-03-17T10:49:21+08:00 ] 127.0.0.1 /home/__PUBLIC__/Home/js/discuz_tips_8.js
+ERR: 无法加载控制器:__PUBLIC__
+
+[ 2018-03-17T10:49:21+08:00 ] 127.0.0.1 /home/__PUBLIC__/Home/css/animate.min_8.css
+ERR: 无法加载控制器:__PUBLIC__
+
+[ 2018-03-17T10:49:21+08:00 ] 127.0.0.1 /home/__PUBLIC__/Home/js/jpages_8.js
+ERR: 无法加载控制器:__PUBLIC__
+
+[ 2018-03-17T10:49:21+08:00 ] 127.0.0.1 /home/__PUBLIC__/Home/js/jquery.superslide.2.1.1_8.js
+ERR: 无法加载控制器:__PUBLIC__
+
+[ 2018-03-17T10:49:21+08:00 ] 127.0.0.1 /home/__PUBLIC__/Home/picture/avatar_8.php
+ERR: 无法加载控制器:__PUBLIC__
+
+[ 2018-03-17T10:49:21+08:00 ] 127.0.0.1 /home/__PUBLIC__/Home/js/nv_8.js
+ERR: 无法加载控制器:__PUBLIC__
+
+[ 2018-03-17T10:49:21+08:00 ] 127.0.0.1 /home/__PUBLIC__/Home/js/jquery.flexslider-min_2.js
+ERR: 无法加载控制器:__PUBLIC__
+
+[ 2018-03-17T10:49:21+08:00 ] 127.0.0.1 /home/__PUBLIC__/Home/picture/avatar_8.php
+ERR: 无法加载控制器:__PUBLIC__
+
+[ 2018-03-17T10:49:22+08:00 ] 127.0.0.1 /home/__PUBLIC__/Home/picture/avatar_8.php
+ERR: 无法加载控制器:__PUBLIC__
+
+[ 2018-03-17T10:49:22+08:00 ] 127.0.0.1 /home/__PUBLIC__/Home/js/home_8.js
+ERR: 无法加载控制器:__PUBLIC__
+
+[ 2018-03-17T10:49:22+08:00 ] 127.0.0.1 /home/__PUBLIC__/Home/js/discuz_tips_8.js
+ERR: 无法加载控制器:__PUBLIC__
+
+[ 2018-03-17T17:31:43+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002069s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000721s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000773s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072254s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072319s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005948s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006158s ]
+
+[ 2018-03-17T17:31:43+08:00 ] 127.0.0.1 /index.php/Home/Index/js/nv_8.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001694s ]
+ERR: 非法操作:js
+
+[ 2018-03-17T20:35:23+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001266s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001854s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063484s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006773s ]
+
+[ 2018-03-17T20:35:23+08:00 ] 127.0.0.1 /index.php/Home/Index/js/nv_8.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003125s ]
+ERR: 非法操作:js
+
+[ 2018-03-17T20:35:23+08:00 ] 127.0.0.1 /index.php/Home/Index/js/nv_8.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001532s ]
+ERR: 非法操作:js
+

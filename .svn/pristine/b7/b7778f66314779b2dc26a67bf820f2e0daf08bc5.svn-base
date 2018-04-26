@@ -1,0 +1,67 @@
+<?php 
+namespace Admin\Controller;
+use Think\Controller;
+class CategoryController extends Controller{
+	public function category(){
+		$top=D('forumtype')->where("pid = 1")->select();
+		$top_second=D('forumtype')->where("pid > 1")->select();
+
+		$this->assign('top',$top);
+	
+		$this->assign('top_second',$top_second);
+		
+		$this->display();
+	}
+	public function edit(){
+		$this->display('cate-edit');
+	}
+	public function add(){
+			// $res=D('forumtype')->field('name')->add($data);
+			// $id=D('forumtype')->where(['name'=>$data['name']])->find();
+			// $res=D('forumtype')->where(['id'=>$id['id']])->setField('pid',2);
+	$data['name']=I('post.cate_name');$data['cate_name']=I('post.name');
+		if($data['cate_name']=='新闻'){
+		// $data['name']=I('post.name');
+		
+		$res=D('forumtype')->field('name')->add($data);
+		$id=D('forumtype')->where(['name'=>$data['name']])->find();
+		$res=D('forumtype')->where(['id'=>$id['id']])->setField('pid',2);
+		}
+		else{
+			
+		$res=D('forumtype')->field('name')->add($data);
+		$id=D('forumtype')->where(['name'=>$data['name']])->find();
+		$res=D('forumtype')->where(['id'=>$id['id']])->setField('pid',3);
+		}
+		if($res){
+			$return=[
+			'code'=>10000,
+			'msg'=>'success'
+			];
+			$this->ajaxReturn($return);
+		}else{
+			$return=[
+			'code'=>10001,
+			'msg'=>'修改失败'
+			];
+			$this->ajaxReturn($return);
+		}
+	}
+	public function del(){
+		$data=I('post.name');
+		$res=D('forumtype')->where(['name'=>$data['name']])->delete();
+		if($res!=0){
+			$return=[
+			'code'=>10000,
+			'msg'=>'删除成功'
+			];
+			$this->ajaxReturn($return);
+		}else{
+			$return=[
+			'code'=>10001,
+			'msg'=>'删除失败'
+			];
+			$this->ajaxReturn($return);
+		}
+	}
+}

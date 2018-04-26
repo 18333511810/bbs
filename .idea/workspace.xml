@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="afd18833-0943-4838-be29-1b3c6fae46cf" name="默认的" comment="">
+      <change beforePath="$PROJECT_DIR$/Application/Admin/Controller/AdminController.class.php" afterPath="$PROJECT_DIR$/Application/Admin/Controller/AdminController.class.php" />
+      <change beforePath="$PROJECT_DIR$/Application/Admin/Controller/ArticleController.class.php" afterPath="$PROJECT_DIR$/Application/Admin/Controller/ArticleController.class.php" />
+      <change beforePath="$PROJECT_DIR$/Application/Admin/Controller/BannerController.class.php" afterPath="$PROJECT_DIR$/Application/Admin/Controller/BannerController.class.php" />
+      <change beforePath="$PROJECT_DIR$/Application/Admin/Controller/CategoryController.class.php" afterPath="$PROJECT_DIR$/Application/Admin/Controller/CategoryController.class.php" />
+      <change beforePath="$PROJECT_DIR$/Application/Admin/Controller/CommentController.class.php" afterPath="$PROJECT_DIR$/Application/Admin/Controller/CommentController.class.php" />
+      <change beforePath="$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php" afterPath="$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php" />
+      <change beforePath="$PROJECT_DIR$/Application/Admin/Controller/LoginController.class.php" afterPath="$PROJECT_DIR$/Application/Admin/Controller/LoginController.class.php" />
+      <change beforePath="$PROJECT_DIR$/Application/Admin/Controller/UserController.class.php" afterPath="$PROJECT_DIR$/Application/Admin/Controller/UserController.class.php" />
+      <change beforePath="$PROJECT_DIR$/Application/Admin/Controller/WeController.class.php" afterPath="$PROJECT_DIR$/Application/Admin/Controller/WeController.class.php" />
+      <change beforePath="$PROJECT_DIR$/Application/Admin/View/Admin/admin-add.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Admin/admin-add.html" />
+      <change beforePath="$PROJECT_DIR$/Application/Admin/View/Admin/admin-cate.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Admin/admin-cate.html" />
+      <change beforePath="$PROJECT_DIR$/Application/Admin/View/Admin/admin-list.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Admin/admin-list.html" />
+      <change beforePath="$PROJECT_DIR$/Application/Admin/View/Admin/admin-role.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Admin/admin-role.html" />
+      <change beforePath="$PROJECT_DIR$/Application/Admin/View/Admin/admin-rule.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Admin/admin-rule.html" />
+      <change beforePath="$PROJECT_DIR$/Application/Admin/View/Admin/link-edit.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Admin/link-edit.html" />
+      <change beforePath="$PROJECT_DIR$/Application/Admin/View/Admin/role-add.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Admin/role-add.html" />
+      <change beforePath="$PROJECT_DIR$/Application/Admin/View/Admin/role-edit.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Admin/role-edit.html" />
+      <change beforePath="$PROJECT_DIR$/Application/Admin/View/Article/article-add.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Article/article-add.html" />
+      <change beforePath="$PROJECT_DIR$/Application/Admin/View/Article/article-edit.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Article/article-edit.html" />
+      <change beforePath="$PROJECT_DIR$/Application/Admin/View/Article/article-list.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Article/article-list.html" />
+      <change beforePath="$PROJECT_DIR$/Application/Admin/View/Banner/banner-add.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Banner/banner-add.html" />
+      <change beforePath="$PROJECT_DIR$/Application/Admin/View/Banner/banner-list.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Banner/banner-list.html" />
+      <change beforePath="$PROJECT_DIR$/Application/Admin/View/Category/cate-edit.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Category/cate-edit.html" />
+      <change beforePath="$PROJECT_DIR$/Application/Admin/View/Category/category.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Category/category.html" />
+      <change beforePath="$PROJECT_DIR$/Application/Admin/View/Index/index.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/index.html" />
+      <change beforePath="$PROJECT_DIR$/Application/Common/Conf/config.php" afterPath="$PROJECT_DIR$/Application/Common/Conf/config.php" />
+      <change beforePath="$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php" afterPath="$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php" />
+      <change beforePath="$PROJECT_DIR$/Application/Home/View/Index/index.html" afterPath="$PROJECT_DIR$/Application/Home/View/Index/index.html" />
+      <change beforePath="$PROJECT_DIR$/Application/Home/View/layout.html" afterPath="$PROJECT_DIR$/Application/Home/View/layout.html" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/286cbdfc5380061f41de9a5aaed47980.php" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/286cbdfc5380061f41de9a5aaed47980.php" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/36aa1564fd2095dbda720148e1b6d45e.php" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/36aa1564fd2095dbda720148e1b6d45e.php" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/44ddc6099f65a7e6955a672b2e674447.php" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/44ddc6099f65a7e6955a672b2e674447.php" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/476d5480065186eff2adbf5539b9b6c2.php" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/476d5480065186eff2adbf5539b9b6c2.php" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/64de3bca31a8bf551f38dfa81bc69ac8.php" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/64de3bca31a8bf551f38dfa81bc69ac8.php" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/7690adc44c4cc33d9fcdb424ea1bacff.php" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/7690adc44c4cc33d9fcdb424ea1bacff.php" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/a1e43975c637ecf50ea4944c9d596d0d.php" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/a1e43975c637ecf50ea4944c9d596d0d.php" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/a846fb41db446b7e6a8b25a7c49547ac.php" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/a846fb41db446b7e6a8b25a7c49547ac.php" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/ab3967443875807818d2e68c9b2aea7d.php" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/ab3967443875807818d2e68c9b2aea7d.php" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/adff5071ed985cb0812290f3c200b0f7.php" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/adff5071ed985cb0812290f3c200b0f7.php" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/b6bcc440481e27872c3a1650258f727b.php" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/b6bcc440481e27872c3a1650258f727b.php" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/cbf578139f5b4bac44a8979791d78765.php" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/cbf578139f5b4bac44a8979791d78765.php" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/ce86988ad8f78a66527306e156f08353.php" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/ce86988ad8f78a66527306e156f08353.php" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/e6ef8100700d8df2fa124d23f96850f5.php" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/e6ef8100700d8df2fa124d23f96850f5.php" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/f1aef7e3d4b586d6550056ca476acd26.php" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/f1aef7e3d4b586d6550056ca476acd26.php" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/f918e6dd382f4d08ceff26f2ad3ef916.php" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/f918e6dd382f4d08ceff26f2ad3ef916.php" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Admin/18_03_14.log" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Admin/18_03_14.log" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Admin/18_03_15.log" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Admin/18_03_15.log" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Common/18_03_14.log" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Common/18_03_14.log" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Common/18_03_15.log" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Common/18_03_15.log" />
+      <change beforePath="$PROJECT_DIR$/Public/Admin/js/x-admin.js" afterPath="$PROJECT_DIR$/Public/Admin/js/x-admin.js" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/css/style_2_common_2.css" afterPath="$PROJECT_DIR$/Public/Home/css/style_2_common_2.css" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/css/style_2_common_7.css" afterPath="$PROJECT_DIR$/Public/Home/css/style_2_common_7.css" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/js/deanactions.min_8.js" afterPath="$PROJECT_DIR$/Public/Home/js/deanactions.min_8.js" />
+      <change beforePath="$PROJECT_DIR$/ThinkPHP/Tpl/dispatch_jump.tpl" afterPath="$PROJECT_DIR$/ThinkPHP/Tpl/dispatch_jump.tpl" />
+      <change beforePath="$PROJECT_DIR$/home/luntan.html" afterPath="$PROJECT_DIR$/home/luntan.html" />
+      <change beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Public/Home/js/deanactions.min_8.js" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Index/pubuliu.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Index/index.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/layout.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Index/luntan.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="609" />
+    <option name="y" value="139" />
+    <option name="width" value="1142" />
+    <option name="height" value="785" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="bbs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bbs" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bbs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bbs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Application" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bbs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bbs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Home" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bbs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bbs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Home" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="View" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bbs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bbs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Home" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="View" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Index" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../edu/mylaravel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="I:\www\bbs\Application\Home\View\Index" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\志强\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="I:\www\bbs" />
+          <option name="myCopyRoot" value="I:\www\bbs" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="I:\www\bbs" />
+          <option name="myCopyRoot" value="I:\www\bbs" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="afd18833-0943-4838-be29-1b3c6fae46cf" name="默认的" comment="" />
+      <created>1521877875616</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1521877875616</updated>
+      <workItem from="1521877880174" duration="4465000" />
+      <workItem from="1521974666991" duration="1276000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5741000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="609" y="139" width="1142" height="785" extended-state="0" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22191012" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293944" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/luntan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/pubuliu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19500">
+          <caret line="750" column="6" lean-forward="false" selection-start-line="750" selection-start-column="6" selection-end-line="750" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="988">
+          <caret line="38" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/Home/js/deanactions.min_8.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/luntan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="41" column="31" lean-forward="false" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/pubuliu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="750" column="6" lean-forward="false" selection-start-line="750" selection-start-column="6" selection-end-line="750" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="38" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

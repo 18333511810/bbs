@@ -1,0 +1,36 @@
+[ 2018-03-13T09:07:35+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lib/layui/layui.js
+ERR: 非法操作:lib
+
+[ 2018-03-13T09:07:35+08:00 ] 127.0.0.1 /index.php/Admin/Admin/js/x-layui.js
+ERR: 非法操作:js
+
+[ 2018-03-13T09:08:17+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lib/layui/layui.js
+ERR: 非法操作:lib
+
+[ 2018-03-13T09:08:17+08:00 ] 127.0.0.1 /index.php/Admin/Admin/js/x-layui.js
+ERR: 非法操作:js
+
+[ 2018-03-13T10:09:08+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lib/layui/layui.js
+ERR: 非法操作:lib
+
+[ 2018-03-13T10:09:08+08:00 ] 127.0.0.1 /index.php/Admin/Admin/js/x-layui.js
+ERR: 非法操作:js
+
+[ 2018-03-13T10:26:35+08:00 ] 127.0.0.1 /index.php/Admin/Admin/rule
+ERR: 无法加载控制器:Admin
+
+[ 2018-03-13T14:32:22+08:00 ] 127.0.0.1 /index.php/Admin/Admin/rule-edit.html
+ERR: 非法操作:rule-edit
+
+[ 2018-03-13T14:37:14+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lib/layui/layui.js
+ERR: 非法操作:lib
+
+[ 2018-03-13T14:37:14+08:00 ] 127.0.0.1 /index.php/Admin/Admin/js/x-layui.js
+ERR: 非法操作:js
+
+[ 2018-03-13T14:37:22+08:00 ] 127.0.0.1 /index.php/Admin/Admin/rule-edit.html
+ERR: 非法操作:rule-edit
+
+[ 2018-03-13T14:37:52+08:00 ] 127.0.0.1 /index.php/Admin/Admin/rule_edit
+ERR: 模板不存在:./Application/Admin/View/Admin/link-edit.html.html
+

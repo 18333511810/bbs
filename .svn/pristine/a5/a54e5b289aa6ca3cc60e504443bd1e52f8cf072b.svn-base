@@ -1,0 +1,11 @@
+<?php 
+namespace Admin\Controller;
+use Think\Controller;
+class CategoryController extends Controller{
+	public function category(){
+		$this->display('category');
+	}
+	public function edit(){
+		$this->display('cate-edit');
+	}
+}

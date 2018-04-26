@@ -1,0 +1,919 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+<title>发表帖子 - 瀑布流 -  Discuz! Board -  Powered by Discuz!</title>
+
+<meta name="keywords" content="" />
+<meta name="description" content=",Discuz! Board" />
+<meta name="generator" content="Discuz! X3.2" />
+<meta name="author" content="Discuz! Team and Comsenz UI Team" />
+<meta name="copyright" content="2001-2013 Comsenz Inc." />
+<meta name="MSSmartTagsPreventParsing" content="True" />
+<meta http-equiv="MSThemeCompatible" content="Yes" />
+<link rel="stylesheet" type="text/css" href="css/style_2_common_7.css" /><link rel="stylesheet" type="text/css" href="css/style_2_forum_post.css" /><script type="text/javascript">var STYLEID = '2', STATICURL = 'static/', IMGDIR = 'static/image/common', VERHASH = 'p2Z', charset = 'gbk', discuz_uid = '6', cookiepre = 'aGKa_2132_', cookiedomain = '', cookiepath = '/', showusercard = '1', attackevasive = '0', disallowfloat = 'newthread', creditnotice = '1|威望|,2|金钱|,3|贡献|', defaultstyle = '', REPORTURL = 'aHR0cDovLzQ3LjkzLjI4LjcvZHovMTcvZm9ydW0ucGhwP21vZD1wb3N0JmFjdGlvbj1uZXd0aHJlYWQmZmlkPTImY2VkaXQ9eWVzJmV4dHJhPQ==', SITEURL = 'http://47.93.28.7/dz/17/', JSPATH = 'static/js/', CSSPATH = 'data/cache/style_', DYNAMICURL = '';</script>
+<script src="js/common_7.js" type="text/javascript"></script>
+<meta name="application-name" content="Discuz! Board" />
+<meta name="msapplication-tooltip" content="Discuz! Board" />
+<meta name="msapplication-task" content="name=门户;action-uri=http://47.93.28.7/dz/17/portal.php;icon-uri=http://47.93.28.7/dz/17/static/image/common/portal.ico" /><meta name="msapplication-task" content="name=论坛;action-uri=http://47.93.28.7/dz/17/forum.php;icon-uri=http://47.93.28.7/dz/17/static/image/common/bbs.ico" />
+<link rel="archives" title="Discuz! Board" href="http://47.93.28.7/dz/17/archiver/" />
+<link rel="stylesheet" id="css_widthauto" type="text/css" href="css/style_2_widthauto_7.css" />
+<script type="text/javascript">HTMLNODE.className += ' widthauto'</script>
+<script src="js/forum_7.js" type="text/javascript"></script>
+     <script type="text/javascript" src='js/jquery-1.8.3.min_7.js'></script>
+ <script type="text/javascript">
+        var jq=jQuery.noConflict();
+     </script>
+     <script src="js/deanactions.min_7.js" type="text/javascript"></script>
+ <link rel="stylesheet" type="text/css" href="css/animate.min_7.css">
+     <script>
+    var wow = new WOW({boxClass: 'deanactions',});wow.init();
+    </script>
+     <script src="js/jpages_7.js" type="text/javascript"></script>
+ <script type="text/javascript" src='js/jquery.superslide.2.1.1_7.js'></script>
+     <script language="javascript" type="text/javascript">
+function killErrors() {
+return true;
+}
+window.onerror = killErrors;
+</script>
+</head>
+
+<body id="nv_forum" class="pg_post" onkeydown="if(event.keyCode==27) return false;">
+<div id="append_parent"></div><div id="ajaxwaitid"></div>
+<div id="toptb" class="cl" style="display:none;">
+<div class="wp">
+<div class="z"><a href="javascript:;"  onclick="setHomepage('http://47.93.28.7/dz/17/');">设为首页</a><a href="http://47.93.28.7/dz/17/"  onclick="addFavorite(this.href, 'Discuz! Board');return false;">收藏本站</a></div>
+<div class="y">
+
+</div>
+                <div class="clear"></div>
+</div>
+</div>
+
+<ul id="myprompt_menu" class="p_pop" style="display: none;">
+<li><a href="home.php?mod=space&amp;do=pm" id="pm_ntc" style="background-repeat: no-repeat; background-position: 0 50%;"><em class="prompt_news_0"></em>消息</a></li>
+
+<li><a href="home.php?mod=follow&amp;do=follower"><em class="prompt_follower_0"></em>新听众</a></li>
+
+<li><a href="home.php?mod=space&amp;do=notice&amp;view=system"><em class="notice_system"></em>系统提醒(<span class="rq">1</span>)</a></li>
+<li class="ignore_noticeli"><a href="javascript:;" onClick="setcookie('ignore_notice', 1);hideMenu('myprompt_menu')" title="暂不提醒"><em class="ignore_notice"></em></a></li>
+</ul>
+<div id="qmenu_menu" class="p_pop " style="display: none;">
+<ul class="cl nav"><li><a href="home.php?mod=magic" style="background-image:url(images/magic_b_2.png) !important">道具</a></li>
+<li><a href="home.php?mod=medal" style="background-image:url(images/medal_b_3.png) !important">勋章</a></li>
+<li><a href="home.php?mod=task" style="background-image:url(images/task_b_3.png) !important">任务</a></li>
+</ul>
+<div id="fjump_menu" class="btda"></div></div><div id="hd">
+            <div id="deanheader">
+                <div class="w1180">
+                    <div class="deanlogo"><h2><a href="./" title="Discuz! Board"><img src="picture/logo_8.png" alt="Discuz! Board" border="0" /></a></h2></div>
+                    <div class="deannav">
+                                           <ul>
+                                                    <li class="a" id="mn_portal" ><a href="index.html" hidefocus="true" title="Portal"  >门户<span>Portal</span></a></li>                                                    <li id="mn_Ned10" ><a href="pubuliu.html" hidefocus="true"  >瀑布流</a></li>                                                    <li id="mn_forum" ><a href="luntan.html" hidefocus="true" title="BBS"  >论坛<span>BBS</span></a></li>                                                    <li id="mn_P1" ><a href="xianlu.html" hidefocus="true"  >路线</a></li>                                                    <li id="mn_P2" ><a href="jingcai.html" hidefocus="true"  >精彩</a></li>                                                    <li id="mn_P3" onmouseover="showMenu({'ctrlid':this.id,'ctrlclass':'hover','duration':2})"><a href="zhuangbei.html" hidefocus="true"  >装备</a></li>                                                                                                        <li id="mn_P6" ><a href="zixun.html" hidefocus="true"  >资讯</a></li>                                                    <li id="mn_P7" ><a href="guanyu.html" hidefocus="true"  >关于</a></li>                                                                                                                                                       </ul>
+                    </div>
+                    <div class="deansearch">
+                    	<div class="deansearchbutton">
+                        	<div class="deansearchinput">
+                        <div id="scbar" class="cl">
+<form id="scbar_form" method="post" autocomplete="off" onsubmit="searchFocus($('scbar_txt'))" action="search.php?searchsubmit=yes" target="_blank">
+<input type="hidden" name="mod" id="scbar_mod" value="search" />
+<input type="hidden" name="formhash" value="92d642cd" />
+<input type="hidden" name="srchtype" value="title" />
+<input type="hidden" name="srhfid" value="2" />
+<input type="hidden" name="srhlocality" value="forum::post" />
+<table cellspacing="0" cellpadding="0">
+<tr>
+<td><input type="text" name="srchtxt" id="scbar_txt" value="搜索游记、路书、自驾路线" onFocus="if(value=='搜索游记、路书、自驾路线'){value=''}" onblur="if(value=='') {value='搜索游记、路书、自驾路线'}" autocomplete="off" x-webkit-speech speech /></td>
+<td><button type="submit" name="searchsubmit" id="scbar_btn" sc="1" class="pn pnc" value="true">&nbsp;&nbsp;</button></td>
+</tr>
+</table>
+</form>
+</div>
+
+<ul id="scbar_type_menu" class="p_pop" style="display: none;"><li><a href="javascript:;" rel="curforum" fid="2" >本版</a></li><li><a href="javascript:;" rel="article">文章</a></li><li><a href="javascript:;" rel="forum" class="curtype">帖子</a></li><li><a href="javascript:;" rel="user">用户</a></li></ul>
+<script type="text/javascript">
+initSearchmenu('scbar', '');
+</script>
+                            </div>
+                            
+                        </div>
+                    
+                    </div>
+                    <div class="deandl">
+                    	
+                    <style type="text/css">
+.deanlogin .pipe{ display:none;} 
+.deanlogin dl a{ padding:0;}
+</style>
+<div class="deanlogin">                 
+                
+        <div class="allmember" style="float:right; position:relative;line-height: 25px;">
+        	<div class="deantongzhi"><a href="home.php?mod=space&amp;do=notice" title="新通知" id="myprompt" class="new"><span>1</span></a></div>
+            <div class="deantongzhi" style="margin-right:85px;"><a href="home.php?mod=space&amp;do=pm" title="新消息" id="pm_ntc"></a></div>
+            <div class="clear"></div>
+            <div id="deanmemberinfo"><span><a class="deanvwmy" href="home.php?mod=space&amp;uid=6" target="_blank" title="访问我的空间"><img src="picture/avatar_7.php" /><i></i></a></span><div class="clear"></div></div>
+        <div class="clear"></div>
+            <div id="deanmembercontent">
+                <dl>
+                    
+                    <dd><a class="deanadmin" href="home.php?mod=space&amp;uid=6" target="_blank" title="访问我的空间">1915771033</a></dd>
+                    <dd><div class="loginout"><a href="member.php?mod=logging&amp;action=logout&amp;formhash=92d642cd">退出</a></div></dd>
+                   <dd><a href="home.php?mod=spacecp">设置</a></dd>
+                   <dd></dd>
+                                                                                                    
+                                        <dd><a href="home.php?mod=spacecp&amp;ac=usergroup" class="xi2">新手上路</a></dd>
+                    <dd></dd>
+                </dl>
+            </div>
+            <script type="text/javascript">
+                jq("#deanmemberinfo").hover(
+                    function(){
+                        jq(this).siblings("#deanmembercontent").show();
+                        },
+                    function(){
+                        jq(this).siblings("#deanmembercontent").hide();
+                        })
+                jq("#deanmembercontent").hover(
+                    function(){
+                        jq(this).show();
+                        jq(this).siblings("#deanmemberinfo").addClass("curs");
+                        },
+                    function(){
+                        jq(this).hide();
+                        jq(this).siblings("#deanmemberinfo").removeClass("curs");
+                        })
+            </script>
+        </div>
+   <ul>
+         </ul>
+</div>                        
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                
+            </div>
+        	<script src="js/nv_7.js" type="text/javascript"></script>
+            <!--侧边工具栏-->
+            <div class="side_bar">
+                <ul>
+                    <li class="side_bar_service">
+                        <i></i>
+                        <div class="deansidehidden">
+                           
+                            <a href="#" title="QQ客服" onClick="javascript:window.open('http://wpa.qq.com/msgrd?v=3&amp;uin=125422921&amp;site=qq&amp;menu=yes', '_blank', 'height=502, width=644,toolbar=no,scrollbars=no,menubar=no,status=no');">QQ客服</a>
+                           
+                        </div>
+                    </li>
+            
+                    <li class="side_bar_tel">
+                        <i></i>
+                        <div class="deansidehidden">
+                            <p>028-83233736</p>
+                        </div>
+                    </li>
+                    <li class="side_bar_weixin">
+                        <i></i>
+                        <div class="deansidehidden">
+                        	<img src="picture/weixinfuwu-erweima-110_7.jpg">
+                            <p>关注我们</p>
+                        </div>
+                    </li>
+                    <li class="side_bar_top">
+                    	
+                        <a  onClick="window.scrollTo('0','0')"></a>
+                        <div class="deansidehidden">
+                            <p>返回顶部</p>
+                        </div>
+                        
+                    </li>
+                </ul>
+            </div>
+            
+            
+            
+<div class="wp">
+<div class="hdc cl">
+
+
+
+</div>
+
+
+<ul class="p_pop h_pop" id="mn_P3_menu" style="display: none"><li><a href="http://47.93.28.7/dz/17/portal.php?mod=list&catid=4" hidefocus="true" >自驾装备</a></li><li><a href="http://47.93.28.7/dz/17/portal.php?mod=list&catid=5" hidefocus="true" >户外装备</a></li></ul><div class="p_pop h_pop" id="mn_userapp_menu" style="display: none"></div><div id="mu" class="cl">
+</div></div>
+</div>
+
+
+<div id="wp" class="wp">
+<script type="text/javascript">
+var allowpostattach = parseInt('1');
+var allowpostimg = parseInt('1');
+var pid = parseInt('0');
+var tid = parseInt('0');
+var extensions = 'chm,pdf,zip,rar,tar,gz,bzip2,gif,jpg,jpeg,png';
+var imgexts = 'jpg, jpeg, gif, png';
+var postminchars = parseInt('10');
+var postmaxchars = parseInt('10000');
+var disablepostctrl = parseInt('0');
+var seccodecheck = parseInt('1');
+var secqaacheck = parseInt('0');
+var typerequired = parseInt('');
+var sortrequired = parseInt('');
+var special = parseInt('0');
+var isfirstpost = 1;
+var allowposttrade = parseInt('');
+var allowpostreward = parseInt('');
+var allowpostactivity = parseInt('');
+var sortid = parseInt('0');
+var special = parseInt('0');
+var fid = 2;
+var postaction = 'newthread';
+var ispicstyleforum = 1;
+</script>
+
+<script src="js/forum_post.js" type="text/javascript"></script>
+
+
+
+<div id="pt" class="bm cl">
+<div class="z"><a href="./" class="nvhm" title="首页">Discuz! Board</a>  <em>&rsaquo;</em> <a href="forum.php">论坛</a> <em>&rsaquo;</em> <a href="forum.php?gid=1">自驾游户外演示站</a> <em>&rsaquo;</em> <a href="forum.php?mod=forumdisplay&fid=2">瀑布流</a>
+
+ <em>&rsaquo;</em> 
+发表帖子
+
+</div>
+</div><form method="post" autocomplete="off" id="postform"
+action="forum.php?mod=post&amp;action=newthread&amp;fid=2&amp;extra=&amp;topicsubmit=yes"
+onsubmit="return validate(this)">
+<div id="ct" class="ct2_a ct2_a_r wp cl">
+<input type="hidden" name="formhash" id="formhash" value="92d642cd" />
+<input type="hidden" name="posttime" id="posttime" value="1519691669" />
+<input type="hidden" name="wysiwyg" id="e_mode" value="1" />
+<div class="bm bw0 cl" id="editorbox">
+<ul class="tb cl mbw">
+<li class="a"><a href="javascript:;" onclick="switchpost('forum.php?mod=post&action=newthread')">发表帖子</a></li><li><a href="javascript:;" onclick="switchpost('forum.php?mod=post&action=newthread&special=1')">发起投票</a></li></ul>
+
+<div id="draftlist_menu" style="display:none">
+<ul class="xl xl1">
+<li class="xi2"><a href="forum.php?mod=guide&amp;view=my&amp;type=thread&amp;filter=save&amp;fid=0" target="_blank">查看所有草稿</a></li>
+</ul>
+</div>
+
+
+<div id="postbox">
+<div class="pbt cl">
+<div class="z">
+<span><input type="text" name="subject" id="subject" class="px" value="" onblur="if($('tags')){relatekw('-1','-1');doane();}" onkeyup="strLenCalc(this, 'checklen', 80);" style="width: 25em" tabindex="1" /></span>
+			
+<span id="subjectchk">还可输入 <strong id="checklen">80</strong> 个字符</span>
+<script type="text/javascript">strLenCalc($('subject'), 'checklen', 80)</script>
+</div>
+</div>
+
+<div id="attachnotice_attach" class="tbms mbm xl" style="display:none">
+您有 <span id="unusednum_attach"></span> 个未使用的附件 &nbsp; <a href="javascript:;" class="xi2" onclick="attachoption('attach', 2);" />查看</a><span class="pipe">|</span><a href="javascript:;" class="xi2" onclick="attachoption('attach', 1)">使用</a><span class="pipe">|</span><a href="javascript:;" class="xi2" onclick="attachoption('attach', 0)">删除</a>
+<div id="unusedlist_attach" style="display:none"></div>
+</div>
+<div id="attachnotice_img" class="tbms mbm xl" style="display:none">
+您有 <span id="unusednum_img"></span> 个未使用的图片 &nbsp; <a href="javascript:;" class="xi2" onclick="attachoption('img', 2);" />查看</a><span class="pipe">|</span><a href="javascript:;" class="xi2" onclick="attachoption('img', 1)">使用</a><span class="pipe">|</span><a href="javascript:;" class="xi2" onclick="attachoption('img', 0)">删除</a>
+<div id="unusedlist_img" style="display:none"></div>
+</div>
+
+<div id="e_body_loading"><img src="picture/loading.gif" width="16" height="16" class="vm" /> 请稍后 ...</div>
+<div class="edt" id="e_body" style="display: none">
+<div id="e_controls" class="bar">
+<div class="y">
+<div class="b2r nbl nbr" id="e_adv_5">
+<p>
+<a id="e_undo" title="撤销">Undo</a>
+</p>
+<p>
+<a id="e_redo" title="重做">Redo</a>
+</p>
+</div>
+<div class="z">
+<span class="mbn"><a id="e_fullswitcher"></a><a id="e_simple"></a></span>
+<label id="e_switcher" class="bar_swch ptn"><input id="e_switchercheck" type="checkbox" class="pc" name="checkbox" value="0"  onclick="switchEditor(this.checked?0:1)" />纯文本</label>
+</div>
+</div>
+<div id="e_button" class="btn cl">
+<div class="b2r nbr nbl" id="e_adv_s2">
+<a id="e_fontname" class="dp" title="设置字体" menupos="43!"><span id="e_font">字体</span></a>
+<a id="e_fontsize" class="dp" title="设置文字大小" menupos="43!" menuwidth="25"><span id="e_size">大小</span></a>
+<span id="e_adv_1">
+<a id="e_inserthorizontalrule" title="分隔线">Hr</a>
+<br />
+</span>
+<a id="e_bold" title="文字加粗">B</a>
+<a id="e_italic" title="文字斜体">I</a>
+<a id="e_underline" title="文字加下划线">U</a>
+<a id="e_forecolor" title="设置文字颜色">Color</a>
+<a id="e_backcolor" title="设置文字背景色">BgColor</a>
+<a id="e_url" title="添加链接">Url</a>
+<span id="e_adv_8">
+<a id="e_unlink" title="移除链接">Unlink</a>
+</span>
+</div>
+<div class="b2r nbl" id="e_adv_2">
+<p id="e_adv_3">
+<a id="e_tbl" title="添加表格">Table</a>
+</p>
+<p>
+<a id="e_removeformat" title="清除文本格式">Removeformat</a>
+</p>
+</div>
+<div class="b2r">
+<p>
+<a id="e_autotypeset" title="自动排版">Autotypeset</a>
+<a id="e_justifyleft" title="居左">Left</a>
+<a id="e_justifycenter" title="居中">Center</a>
+<a id="e_justifyright" title="居右">Right</a>
+</p>
+<p id="e_adv_4">
+<a id="e_floatleft" title="左浮动">FloatLeft</a>
+<a id="e_floatright" title="右浮动">FloatRight</a>
+<a id="e_insertorderedlist" title="排序的列表">Orderedlist</a>
+<a id="e_insertunorderedlist" title="未排序列表">Unorderedlist</a>
+</p>
+</div>
+<div class="b1r" id="e_adv_s1">
+<a id="e_sml" title="添加表情">表情</a>
+<div id="e_imagen" style="display:none">!</div>
+<a id="e_image" title="添加图片" menupos="00" menuwidth="600">图片</a>
+<div id="e_attachn" style="display:none">!</div>
+<a id="e_attach" title="添加附件" menupos="00" menuwidth="600">附件</a>
+</div>
+<div class="b2r esb" id="e_adv_s3">
+<a id="e_quote" title="添加引用文字">引用</a>
+<a id="e_code" title="添加代码文字">代码</a>
+<a id="e_free" adv="1" title="添加免费信息">Free</a>
+<a id="e_pasteword" adv="1" title="从 Word 粘贴内容">Word 粘贴</a>
+<a id="e_page" adv="1" title="分页">Page</a>
+<a id="e_index" adv="1" title="目录">Index</a>
+<a id="e_password" adv="1" title="帖子密码">Password</a>
+<a id="e_postbg" adv="1" title="帖子背景">Background</a>
+<a id="e_cst1_qq" class="cst" title="显示 QQ 在线状态，点这个图标可以和他（她）聊天"><img src="picture/bb_qq.gif" title="显示 QQ 在线状态，点这个图标可以和他（她）聊天" alt="qq" /></a>
+</div>
+</div>
+</div>
+
+<div id="rstnotice" class="ntc_l bbs" style="display:none">
+<a href="javascript:;" title="清除内容" class="d y" onclick="userdataoption(0)">close</a>您有上次未提交成功的数据 <a class="xi2" href="javascript:;" onclick="userdataoption(1)"><strong>恢复数据</strong></a>
+</div>
+
+<div class="area">
+<textarea name="message" id="e_textarea" class="pt" rows="15" tabindex="2"></textarea>
+</div><link rel="stylesheet" type="text/css" href='css/style_2_editor.css' />
+<script src="js/editor.js" type="text/javascript"></script>
+<script src="js/bbcode.js" type="text/javascript"></script>
+<script src="js/common_postimg.js" type="text/javascript"></script>
+<script type="text/javascript">
+var editorid = 'e';
+var textobj = $(editorid + '_textarea');
+var wysiwyg = (BROWSER.ie || BROWSER.firefox || (BROWSER.opera >= 9)) && parseInt('1') == 1 ? 1 : 0;
+var allowswitcheditor = parseInt('1');
+var allowhtml = parseInt('0');
+var allowsmilies = parseInt('1');
+var allowbbcode = parseInt('1');
+var allowimgcode = parseInt('1');
+var simplodemode = parseInt('1');
+var fontoptions = new Array("宋体", "新宋体", "黑体", "微软雅黑", "Arial", "Verdana", "Mingliu", "Helvetica", "Trebuchet MS", "Tahoma", "Impact", "Times New Roman", "仿宋,仿宋_GB2312", "楷体,楷体_GB2312");
+var smcols = 8;
+var custombbcodes = new Array();
+custombbcodes["qq"] = {'prompt' : '请输入 QQ 号码:<a href="" class="xi2" onclick="this.href=\'http://wp.qq.com/set.html?from=discuz&uin=\'+$(\'e_cst1_qq_param_1\').value" target="_blank" style="float:right;">设置QQ在线状态&nbsp;&nbsp;</a>'};
+</script>
+
+<div id="e_bbar" class="bbar">
+<em id="e_tip"></em>
+<span id="e_svdsecond"></span>
+<a href="javascript:;" onclick="discuzcode('svd');return false;" id="e_svd">保存数据</a> |
+<a href="javascript:;" onclick="discuzcode('rst');return false;" id="e_rst">恢复数据</a> &nbsp;&nbsp;
+<a href="javascript:;" onclick="discuzcode('chck');return false;" id="e_chck">字数检查</a> |
+<a href="javascript:;" onclick="discuzcode('tpr');return false;" id="e_tpr">清除内容</a> &nbsp;&nbsp;
+<span id="e_resize"><a href="javascript:;" onclick="editorsize('+');return false;">加大编辑框</a> | <a href="javascript:;" onclick="editorsize('-');return false;">缩小编辑框</a><img src="picture/resize.gif" onmousedown="editorresize(event)" /></span>
+</div></div>
+<div id="post_extra" class="ptm cl">
+<div id="post_extra_tb" class="cl" onselectstart="return false">
+<label id="extra_additional_b" onclick="showExtra('extra_additional')"><span id="extra_additional_chk">附加选项</span></label>
+</div>
+
+<div id="post_extra_c">
+
+<div class="exfm cl" id="extra_additional_c" style="display: none;">
+<table cellspacing="0" cellpadding="0">
+<tr>
+<td class="xw1" valign="top">基本属性</td>
+<td>
+<label for="hiddenreplies"><input type="checkbox" name="hiddenreplies" id="hiddenreplies" class="pc" value="1">回帖仅作者可见</label>
+<label for="ordertype"><input type="checkbox" name="ordertype" id="ordertype" class="pc" value="1"  />回帖倒序排列</label>
+<label for="allownoticeauthor"><input type="checkbox" name="allownoticeauthor" id="allownoticeauthor" class="pc" value="1" checked="checked" />接收回复通知</label>
+<label for="usesig"><input type="checkbox" name="usesig" id="usesig" class="pc" value="1" checked="checked" />使用个人签名</label>
+</td>
+</tr>
+<tr>
+<td class="xw1" valign="top">文本特性</td>
+<td>
+<label for="htmlon"><input type="checkbox" name="htmlon" id="htmlon" class="pc" value="0"  disabled="disabled" />HTML 代码</label>
+<label for="allowimgcode"><input type="checkbox" id="allowimgcode" class="pc" disabled="disabled" checked="checked" />[img] 代码</label>
+<label for="allowimgurl"><input type="checkbox" id="allowimgurl" class="pc" checked="checked" />解析图片链接</label>
+<label for="parseurloff"><input type="checkbox" name="parseurloff" id="parseurloff" class="pc" value="1"  />禁用链接识别</label>
+<label for="smileyoff"><input type="checkbox" name="smileyoff" id="smileyoff" class="pc" value="1"  />禁用表情</label>
+<label for="bbcodeoff"><input type="checkbox" name="bbcodeoff" id="bbcodeoff" class="pc" value="1"  />禁用编辑器代码</label>
+<label for="imgcontent"><input type="checkbox" name="imgcontent" id="imgcontent" class="pc" value="0"  disabled="disabled"/>内容生成图片</label>
+</td>
+</tr>
+</table>
+</div>
+
+</div>
+</div>
+<div id="seccheck">
+<div class="mtm"><span id="seccode_cSojNqnP"></span>		
+<script type="text/javascript" reload="1">updateseccode('cSojNqnP', '<sec> <span id="sec<hash>" onclick="showMenu(this.id)"><sec></span><div id="sec<hash>_menu" class="p_pop p_opt" style="display:none"><sec></div>', 'forum::post');</script>
+</div></div>
+
+<div class="mtm mbm pnpost">
+<a href="home.php?mod=spacecp&amp;ac=credit&amp;op=rule&amp;fid=2" class="y" target="_blank">本版积分规则</a>
+<button type="submit" id="postsubmit" class="pn pnc" value="true" name="topicsubmit">
+<span>发表帖子</span>
+</button>
+<input type="hidden" id="postsave" name="save" value="" />
+<button type="button" id="postsubmit" class="pn" value="true" onclick="$('postsave').value = 1;$('postsubmit').click();"><em>保存草稿</em></button>
+</div>
+
+</div>
+</div>
+</div>
+</form>
+<iframe name="ajaxpostframe" id="ajaxpostframe" style="display: none;"></iframe>
+
+<div id="e_menus" class="editorrow" style="overflow: hidden; margin-top: -5px; height: 0; border: none; background: transparent;"><div id="e_editortoolbar" class="editortoolbar"><div class="p_pop fnm" id="e_fontname_menu" style="display: none">
+<ul unselectable="on"><li onclick="discuzcode('fontname', '宋体')" style="font-family: 宋体" unselectable="on"><a href="javascript:;" title="宋体">宋体</a></li>
+<li onclick="discuzcode('fontname', '新宋体')" style="font-family: 新宋体" unselectable="on"><a href="javascript:;" title="新宋体">新宋体</a></li>
+<li onclick="discuzcode('fontname', '黑体')" style="font-family: 黑体" unselectable="on"><a href="javascript:;" title="黑体">黑体</a></li>
+<li onclick="discuzcode('fontname', '微软雅黑')" style="font-family: 微软雅黑" unselectable="on"><a href="javascript:;" title="微软雅黑">微软雅黑</a></li>
+<li onclick="discuzcode('fontname', 'Arial')" style="font-family: Arial" unselectable="on"><a href="javascript:;" title="Arial">Arial</a></li>
+<li onclick="discuzcode('fontname', 'Verdana')" style="font-family: Verdana" unselectable="on"><a href="javascript:;" title="Verdana">Verdana</a></li>
+<li onclick="discuzcode('fontname', 'Mingliu')" style="font-family: Mingliu" unselectable="on"><a href="javascript:;" title="Mingliu">Mingliu</a></li>
+<li onclick="discuzcode('fontname', 'Helvetica')" style="font-family: Helvetica" unselectable="on"><a href="javascript:;" title="Helvetica">Helvetica</a></li>
+<li onclick="discuzcode('fontname', 'Trebuchet MS')" style="font-family: Trebuchet MS" unselectable="on"><a href="javascript:;" title="Trebuchet MS">Trebuchet MS</a></li>
+<li onclick="discuzcode('fontname', 'Tahoma')" style="font-family: Tahoma" unselectable="on"><a href="javascript:;" title="Tahoma">Tahoma</a></li>
+<li onclick="discuzcode('fontname', 'Impact')" style="font-family: Impact" unselectable="on"><a href="javascript:;" title="Impact">Impact</a></li>
+<li onclick="discuzcode('fontname', 'Times New Roman')" style="font-family: Times New Roman" unselectable="on"><a href="javascript:;" title="Times New Roman">Times New Roman</a></li>
+<li onclick="discuzcode('fontname', '仿宋,仿宋_GB2312')" style="font-family: 仿宋,仿宋_GB2312" unselectable="on"><a href="javascript:;" title="仿宋,仿宋_GB2312">仿宋,仿宋_GB2312</a></li>
+<li onclick="discuzcode('fontname', '楷体,楷体_GB2312')" style="font-family: 楷体,楷体_GB2312" unselectable="on"><a href="javascript:;" title="楷体,楷体_GB2312">楷体,楷体_GB2312</a></li>
+</ul>
+</div><div class="p_pop fszm" id="e_fontsize_menu" style="display: none">
+<ul unselectable="on"><li onclick="discuzcode('fontsize', 1)" unselectable="on"><a href="javascript:;" title="1"><font size="1" unselectable="on">1</font></a></li>
+<li onclick="discuzcode('fontsize', 2)" unselectable="on"><a href="javascript:;" title="2"><font size="2" unselectable="on">2</font></a></li>
+<li onclick="discuzcode('fontsize', 3)" unselectable="on"><a href="javascript:;" title="3"><font size="3" unselectable="on">3</font></a></li>
+<li onclick="discuzcode('fontsize', 4)" unselectable="on"><a href="javascript:;" title="4"><font size="4" unselectable="on">4</font></a></li>
+<li onclick="discuzcode('fontsize', 5)" unselectable="on"><a href="javascript:;" title="5"><font size="5" unselectable="on">5</font></a></li>
+<li onclick="discuzcode('fontsize', 6)" unselectable="on"><a href="javascript:;" title="6"><font size="6" unselectable="on">6</font></a></li>
+<li onclick="discuzcode('fontsize', 7)" unselectable="on"><a href="javascript:;" title="7"><font size="7" unselectable="on">7</font></a></li>
+</ul>
+</div>
+
+</div>
+
+<script type="text/javascript">smilies_show('smiliesdiv', 8, editorid + '_');showHrBox(editorid+'_inserthorizontalrule');showHrBox(editorid+'_postbg', 'postbg');</script>
+
+<script type="text/javascript">
+function switchImagebutton(btn) {
+switchButton(btn, 'image');
+$(editorid + '_image_menu').style.height = '';
+doane();
+}
+function switchAttachbutton(btn) {
+switchButton(btn, 'attach');
+doane();
+}
+</script>
+<div class="p_pof" id="e_image_menu" style="display: none" unselectable="on">
+<table width="100%" cellpadding="0" cellspacing="0" class="fwin"><tr><td class="t_l"></td><td class="t_c"></td><td class="t_r"></td></tr><tr><td class="m_l">&nbsp;&nbsp;</td><td class="m_c"><div class="mtm">
+<ul class="tb tb_s cl" id="e_image_ctrl" style="margin-top:0;margin-bottom:0;">
+<li class="y"><span class="flbc" onclick="hideAttachMenu('image')">关闭</span></li>
+<li class="current" id="e_btn_imgattachlist"><a href="javascript:;" hidefocus="true" onclick="switchImagebutton('imgattachlist');">上传图片</a></li>
+<li id="e_btn_local" style="display:none;" did="e_btn_imgattachlist|local"><a href="javascript:;" hidefocus="true" onclick="switchImagebutton('local');">普通上传</a></li>
+<li  id="e_btn_www"><a href="javascript:;" hidefocus="true" onclick="switchImagebutton('www');">网络图片</a></li>
+
+</ul>
+<div unselectable="on" id="e_www" style="display: none;">
+<div class="p_opt popupfix">
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr class="xg1">
+<th width="74%" class="pbn">请输入图片地址</th>
+<th width="13%" class="pbn">宽(可选)</th>
+<th width="13%" class="pbn">高(可选)</th>
+</tr>
+<tr>
+<td><input type="text" id="e_image_param_1" onchange="loadimgsize(this.value)" style="width: 95%;" value="" class="px" autocomplete="off" /></td>
+<td><input id="e_image_param_2" size="3" value="" class="px p_fre" autocomplete="off" /></td>
+<td><input id="e_image_param_3" size="3" value="" class="px p_fre" autocomplete="off" /></td>
+</tr>
+</table>
+</div>
+<div class="o">
+<button type="button" class="pn pnc" id="e_image_submit"><strong>提交</strong></button>
+</div>
+</div>
+
+<div unselectable="on" id="e_local" style="display: none;">
+<div class="p_opt">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tbody id="imgattachbodyhidden" style="display:none"><tr>
+<td class="atnu"><span id="imglocalno[]"><img src="picture/common_new.gif" /></span></td>
+<td class="atna">
+<span id="imgdeschidden[]" style="display:none">
+<span id="imglocalfile[]"></span>
+</span>
+<input type="hidden" name="imglocalid[]" />
+</td>
+<td class="attc"><span id="imgcpdel[]"></span></td>
+</tr></tbody>
+</table>
+<div class="p_tbl"><table cellpadding="0" cellspacing="0" summary="post_attachbody" border="0" width="100%"><tbody id="imgattachbody"></tbody></table></div>
+<div class="upbk pbm bbda">
+<div id="imgattachbtnhidden" style="display:none"><span><form name="imgattachform" id="imgattachform" method="post" autocomplete="off" action="misc.php?mod=swfupload&amp;operation=upload&amp;simple=1&amp;type=image" target="attachframe" enctype="multipart/form-data"><input type="hidden" name="uid" value="6"><input type="hidden" name="hash" value="757f8553cbad499fa512f4603d49344d"><input type="file" name="Filedata" size="45" class="filedata" /></form></span></div>
+<div id="imgattachbtn" class="ptm pbn"></div>
+<p id="imguploadbtn">
+<button class="pn pnc vm" type="button" onclick="uploadAttach(0, 0, 'img')"><span>上传</span></button>
+<span class="xg1">&larr;选择完文件后请点击“上传”按钮</span>
+</p>
+<p id="imguploading" style="display: none;"><img src="picture/uploading.gif" style="vertical-align: middle;" /> 上传中，请稍候，您可以<a href="javascript:;" onclick="hideMenu()">暂时关闭这个小窗口</a>，上传完成后您会收到通知</p>
+</div>
+<div class="notice upnf">
+文件尺寸: <span class="xi1">小于 1000KB </span>
+, 可用扩展名: <span class="xi1">jpg, jpeg, gif, png</span>&nbsp;
+</div>
+</div>
+<div class="o">
+<button onclick="hideAttachMenu('image')" class="pn pnc">
+<strong>确定</strong>
+</button>
+</div>
+</div>
+
+
+<div unselectable="on" id="e_imgattachlist">
+<div class="p_opt">
+<div class="pbm bbda cl">
+<div id="imgattach_notice" class="y"  style="display: none">
+</div>
+<span id="imgSpanButtonPlaceholder"></span>
+</div>
+<div class="upfilelist upfl bbda">
+<div id="imgattachlist"></div>
+<div id="unusedimgattachlist"></div>
+
+
+<div class="fieldset flash" id="imgUploadProgress"></div>
+
+<script type="text/javascript">
+function createNewAlbum() {
+var inputObj = $('newalbum');
+if(inputObj.value == '' || inputObj.value == '请输入相册名称') {
+inputObj.value = '请输入相册名称';
+} else {
+var x = new Ajax();
+x.get('home.php?mod=misc&ac=ajax&op=createalbum&inajax=1&name=' + inputObj.value, function(s){
+var aid = parseInt(s);
+var albumList = $('uploadalbum');
+var haveoption = false;
+for(var i = 0; i < albumList.options.length; i++) {
+if(albumList.options[i].value == aid) {
+albumList.selectedIndex = i;
+haveoption = true;
+break;
+}
+}
+if(!haveoption) {
+var oOption = document.createElement("OPTION");
+oOption.text = trim(inputObj.value);
+oOption.value = aid;
+albumList.options.add(oOption);
+albumList.selectedIndex = albumList.options.length-1;
+}
+inputObj.value = ''
+});
+selectCreateTab(1)
+}
+}
+function selectCreateTab(flag) {
+var vwObj = $('uploadPanel');
+var opObj = $('createalbum');
+var selObj = $('uploadalbum');
+if(flag) {
+vwObj.style.display = '';
+opObj.style.display = 'none';
+selObj.value = selObj.options[0].value;
+} else {
+vwObj.style.display = 'none';
+opObj.style.display = '';
+}
+}
+</script>
+</div>
+<div class="notice upnf">
+点击图片添加到帖子内容中
+<br />文件尺寸: <span class="xi1">小于 1000KB </span>
+, 可用扩展名: <span class="xi1">jpg, jpeg, gif, png</span>&nbsp;
+</div>
+</div>
+<div class="o">
+<button onclick="hideAttachMenu('image')" class="pn pnc">
+<strong>确定</strong>
+</button>
+</div>
+</div>
+</div></td><td class="m_r"></td></tr><tr><td class="b_l"></td><td class="b_c"></td><td class="b_r"></td></tr></table>
+</div>
+
+<div class="p_pof upf" id="e_attach_menu" style="display: none" unselectable="on">
+<table width="100%" cellpadding="0" cellspacing="0" class="fwin"><tr><td class="t_l"></td><td class="t_c"></td><td class="t_r"></td></tr><tr><td class="m_l">&nbsp;&nbsp;</td><td class="m_c"><div class="mtm">
+<ul class="tb tb_s cl" id="e_attach_ctrl" style="margin-top:0;margin-bottom:0;">
+<li class="y"><span class="flbc" onclick="hideAttachMenu('attach')">关闭</span></li>
+<li class="current" id="e_btn_attachlist"><a href="javascript:;" hidefocus="true" onclick="switchAttachbutton('attachlist');">上传附件</a></li>
+<li id="e_btn_upload" style="display: none;" did="e_btn_attachlist|upload"><a href="javascript:;" hidefocus="true" onclick="switchAttachbutton('upload');">普通上传</a></li>
+</ul>
+
+<div class="p_opt" unselectable="on" id="e_upload" style="display: none;">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tbody id="attachbodyhidden" style="display:none"><tr>
+<td class="atnu"><span id="localno[]"><img src="picture/common_new.gif" /></span></td>
+<td class="atna">
+<span id="deschidden[]" style="display:none">
+<span id="localfile[]"></span>
+</span>
+<input type="hidden" name="localid[]" />
+</td>
+<td class="attc"><span id="cpdel[]"></span></td>
+</tr></tbody>
+</table>
+<div class="p_tbl"><table cellpadding="0" cellspacing="0" summary="post_attachbody" border="0" width="100%"><tbody id="attachbody"></tbody></table></div>
+<div class="upbk pbm bbda">
+<div id="attachbtnhidden" style="display:none"><span><form name="attachform" id="attachform" method="post" autocomplete="off" action="misc.php?mod=swfupload&amp;operation=upload&amp;simple=1" target="attachframe" enctype="multipart/form-data"><input type="hidden" name="uid" value="6"><input type="hidden" name="hash" value="757f8553cbad499fa512f4603d49344d"><input type="file" name="Filedata" size="45" class="fldt" /></form></span></div>
+<div id="attachbtn" class="ptm pbn"></div>
+<p id="uploadbtn">
+<button type="button" class="pn pnc vm" onclick="uploadAttach(0, 0)"><span>上传</span></button>
+<span class="xg1">&larr;选择完文件后请点击“上传”按钮</span>
+</p>
+<p id="uploading" style="display: none;"><img src="picture/uploading.gif" style="vertical-align: middle;" /> 上传中，请稍候，您可以<a href="javascript:;" onclick="hideMenu()">暂时关闭这个小窗口</a>，上传完成后您会收到通知</p>
+</div>
+<div class="notice upnf">
+文件尺寸: <span class="xi1">小于 1000KB </span>
+, 可用扩展名: <span class="xi1">chm,pdf,zip,rar,tar,gz,bzip2,gif,jpg,jpeg,png</span>&nbsp;
+</div>
+</div>
+
+
+<div class="p_opt post_tablelist" unselectable="on" id="e_attachlist">
+<div class="pbm bbda">
+<span id="spanButtonPlaceholder"></span>
+</div>
+<table cellpadding="0" cellspacing="0" border="0" width="100%" id="attach_tblheader" class="mtn bbs" style="display: none">
+<tr>
+<td class="atnu"></td>
+<td class="atna pbn">文件名 ( <a onclick="insertAllAttachTag();return false;" href="javascript:;" class="xi2">插入全部附件</a> )</td>
+<td class="atds pbn">描述</td>
+<td class="attc"></td>
+</tr>
+</table>
+<div class="upfl">
+<div id="attachlist"></div>
+<div id="unusedattachlist"></div>
+
+<div class="fieldset flash" id="fsUploadProgress"></div>
+
+</div>
+<div class="notice upnf">
+<p id="attach_notice" style="display: none">点击附件文件名添加到帖子内容中</p>
+文件尺寸: <span class="xi1">小于 1000KB </span>
+, 可用扩展名: <span class="xi1">chm,pdf,zip,rar,tar,gz,bzip2,gif,jpg,jpeg,png</span>&nbsp;
+</div>
+</div>
+</div>
+<div class="o">
+<button onclick="hideAttachMenu('attach')" class="pn pnc" id="attach_confirms">
+<strong>确定</strong>
+</button>
+</div>
+</td><td class="m_r"></td></tr><tr><td class="b_l"></td><td class="b_c"></td><td class="b_r"></td></tr></table>
+</div>
+
+<iframe name="attachframe" id="attachframe" style="display: none;" onload="uploadNextAttach();"></iframe>
+
+<script type="text/javascript">
+if(wysiwyg) {
+newEditor(1, bbcode2html(textobj.value));
+} else {
+newEditor(0, textobj.value);
+}
+editorsimple();
+
+var ATTACHNUM = {'imageused':0,'imageunused':0,'attachused':0,'attachunused':0}, ATTACHUNUSEDAID = new Array(), IMGUNUSEDAID = new Array();
+ATTACHNUM['imageused'] = 0;
+switchImagebutton('multi');
+
+ATTACHNUM['attachused'] = 0;
+switchAttachbutton('swfupload');
+setCaretAtEnd();
+if(BROWSER.ie >= 5 || BROWSER.firefox >= '2') {
+_attachEvent(window, 'beforeunload', unloadAutoSave);
+}
+loadData(1);
+$(editorid + '_switchercheck').checked = !wysiwyg;
+</script>
+</div>
+
+<script src="js/upload_3.js" type="text/javascript"></script><script type="text/javascript">
+var imgUpload = new SWFUpload({
+upload_url: "http://47.93.28.7/dz/17/misc.php?mod=swfupload&action=swfupload&operation=upload&fid=2",
+post_params: {"uid" : "6", "hash":"757f8553cbad499fa512f4603d49344d", "type":"image"},
+file_size_limit : "1000",
+file_types : "*.jpg;*.jpeg;*.gif;*.png",
+file_types_description : "Image File",
+file_upload_limit : 0,
+file_queue_limit : 0,
+swfupload_preload_handler : preLoad,
+swfupload_load_failed_handler : loadFailed,
+file_dialog_start_handler : fileDialogStart,
+file_queued_handler : fileQueued,
+file_queue_error_handler : fileQueueError,
+file_dialog_complete_handler : fileDialogComplete,
+upload_start_handler : uploadStart,
+upload_progress_handler : uploadProgress,
+upload_error_handler : uploadError,
+upload_success_handler : uploadSuccess,
+upload_complete_handler : uploadComplete,
+button_image_url : "static/image/common/uploadbutton.png",
+button_placeholder_id : "imgSpanButtonPlaceholder",
+button_width: 100,
+button_height: 25,
+button_cursor:SWFUpload.CURSOR.HAND,
+button_window_mode: "transparent",
+custom_settings : {
+progressTarget : "imgUploadProgress",
+uploadSource: 'forum',
+uploadType: 'image',
+imgBoxObj: $('imgattachlist'),
+singleUpload: $('e_btn_local')
+},
+debug: false
+});
+var upload = new SWFUpload({
+upload_url: "http://47.93.28.7/dz/17/misc.php?mod=swfupload&action=swfupload&operation=upload&fid=2",
+post_params: {"uid":"6", "hash":"757f8553cbad499fa512f4603d49344d"},
+file_size_limit : "1000",
+file_types : "*.chm;*.pdf;*.zip;*.rar;*.tar;*.gz;*.bzip2;*.gif;*.jpg;*.jpeg;*.png",
+file_types_description : "All Support Formats",
+file_upload_limit : 0,
+file_queue_limit : 0,
+swfupload_preload_handler : preLoad,
+swfupload_load_failed_handler : loadFailed,
+file_dialog_start_handler : fileDialogStart,
+file_queued_handler : fileQueued,
+file_queue_error_handler : fileQueueError,
+file_dialog_complete_handler : fileDialogComplete,
+upload_start_handler : uploadStart,
+upload_progress_handler : uploadProgress,
+upload_error_handler : uploadError,
+upload_success_handler : uploadSuccess,
+upload_complete_handler : uploadComplete,
+button_image_url : "static/image/common/uploadbutton.png",
+button_placeholder_id : "spanButtonPlaceholder",
+button_width: 100,
+button_height: 25,
+button_cursor:SWFUpload.CURSOR.HAND,
+button_window_mode: "transparent",
+custom_settings : {
+progressTarget : "fsUploadProgress",
+uploadSource: 'forum',
+uploadType: 'attach',
+singleUpload: $('e_btn_upload')
+},
+
+debug: false
+});
+</script>
+
+<script type="text/javascript">
+var editorsubmit = $('postsubmit');
+var editorform = $('postform');
+function switchpost(href) {
+editchange = false;
+saveData(1);
+location.href = href + '&fid=2&cedit=yes&extra=';
+doane();
+}
+
+addAttach();addAttach('img');
+(function () {
+var oSubjectbox = $('subjectbox'),
+oSubject = $('subject'),
+oTextarea = $('e_textarea'),
+sLen = 0;
+if(oSubjectbox) {
+if(oTextarea && oTextarea.style.display == '') {
+oTextarea.focus();
+}
+} else if(oSubject) {
+if(BROWSER.chrome) {
+sLen = oSubject.value.length;
+oSubject.setSelectionRange(sLen, sLen);
+}
+oSubject.focus();
+}
+})();
+
+</script>
+	</div>
+    
+    <div class="deanfooter">
+    	<div class="deanfttop">
+        	<div class="w1180">
+                <div class="deanfttopt">
+                	<div class="deanft_zz">
+                    	<div class="deanzztitle">极专业的自驾游户外平台</div>
+                        <p>一个能让您获取最新的自驾动态，能分享您自驾路上点滴经验，能提供最专业的帮助，这就是我们。</p>
+                    </div>
+                    <div class="deanftservice">
+                    	<div class="deanftservicetitle">旅行服务</div>
+                        <ul>
+                        	<li><a href="#" target="_blank">签证代办</a></li>
+                            <li><a href="#" target="_blank">旅游保险</a></li>
+                            <li><a href="#" target="_blank">旅游指南</a></li>
+                            <li><a href="#" target="_blank">经验分享</a></li>
+                            <li><a href="#" target="_blank">行业动态</a></li>
+                            <li><a href="#" target="_blank">游记攻略</a></li>
+                            <li><a href="#" target="_blank">签证问答</a></li>
+                            <li><a href="#" target="_blank">汽车保险</a></li>
+                            <div class="clear"></div>
+                        </ul>
+                    </div>
+                    <div class="deanft_contact">
+                    	<div class="deanft_contacttitle">联系方式</div>
+                        <ul>
+                        	<li>客服电话：400 123 1678</li>
+                            <li>工作时间：9:00-18:00 (工作日)</li>
+                            <li>意见建议：125422921@qq.com</li>
+                            <li>联系地址：威海市文化西路180号旅游开发大厦1610室</li>
+                        </ul>
+                    </div>
+                    <div class="deanft_ewm">
+                    	<div class="deanweixin"><img src="picture/ewm_7.png" /></div>
+                        <p>自驾游官方微信</p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="deanfttopb">
+                	                        <a href="javascript:;"  onclick="showWindow('miscreport', 'misc.php?mod=report&url='+REPORTURL);return false;">举报</a><span class="pipe">|</span><a href="archiver/" >Archiver</a><span class="pipe">|</span><a href="forum.php?mobile=yes" >手机版</a><span class="pipe">|</span><a href="forum.php?mod=misc&action=showdarkroom" >小黑屋</a><span class="pipe">|</span>                                <a href="http://www.comsenz.com/" target="_blank">Comsenz Inc.</a>
+                        
+                                                                                    			                    	                </div>
+            </div>
+        </div>
+        <div class="deanftbottom">
+        	<div class="w1180">
+            	<div class="deanftbl">
+                	<p>Powered by <a href="http://www.discuz.net" target="_blank">Discuz!</a> <em>X3.2</em>&copy; 2001-2013 <a href="http://www.comsenz.com" target="_blank">Comsenz Inc.</a></p>
+                    <p>大连记事本网络科技有限公司&nbsp;版权所有&nbsp;&nbsp;&nbsp; &nbsp;业务许可证：B1.B2-20140071</p>
+                </div>
+                <div class="deanftbr">
+                	
+                    <a href="http://union.rising.com.cn/InfoManage/attestation.aspx?p0=-ujc0DLaZoQyRO8TjrFDbGdNzFG09DKUDENxVluALuc=" class="deana4" target="_blank" rel="nofollow">瑞星网络安全</a>
+                    <a href="http://www.cyberpolice.cn/" class="deana3" target="_blank" rel="nofollow">网络110</a>
+                    <a href="http://webscan.360.cn/index/checkwebsite?url=aizijia.com" class="deana2" target="_blank" rel="nofollow">360安全中心</a>				<a href="http://www.hd315.gov.cn" class="deana1" target="_blank" rel="nofollow">经营性网站备案中心</a>
+                    
+                </div>
+                <div class="clear"></div>
+        </div>
+    </div>
+    
+    
+<div id="ft" style="margin:0;padding:0; height:0;"></div>
+<script src="js/home_7.js" type="text/javascript"></script>
+<script src="js/home_7.js" type="text/javascript"></script>
+<script type="text/javascript">noticeTitle();</script>
+<script src="js/html5notification_3.js" type="text/javascript"></script>
+<script type="text/javascript">
+var h5n = new Html5notification();
+if(h5n.issupport()) {
+h5n.shownotification('notice_system', 'http://47.93.28.7/dz/17/home.php?mod=space&do=notice&view=system', 'http://47.93.28.7/dz/17/uc_server/avatar.php?uid=6&size=small', '系统提醒 (1)', '有新的提醒，快去看看吧');
+}
+</script>
+<div id="scrolltop" style="display:none;">
+<span hidefocus="true"><a title="返回顶部" onclick="window.scrollTo('0','0')" id="scrolltopa" ><b>返回顶部</b></a></span>
+<span>
+<a href="forum.php" hidefocus="true" class="returnboard" title="返回版块"><b>返回版块</b></a>
+</span>
+</div>
+
+
+<script type="text/javascript">_attachEvent(window, 'scroll', function () { showTopLink(); });checkBlind();</script>
+			<div id="discuz_tips" style="display:none;"></div>
+			<script type="text/javascript">
+				var tipsinfo = '|X3.2|0.6||0||6|10|1519691669||2';
+			</script>
+			<script src="js/discuz_tips_7.js" type="text/javascript" charset="UTF-8"></script></body>
+</html>

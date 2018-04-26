@@ -1,0 +1,83 @@
+<?php
+namespace Admin\Controller;
+use Think\Controller;
+class UserController extends Controller{
+	public function lis(){
+		$user = D('User')->alias('u')->field('u.id,u.name,i.sex,i.phone,u.email,i.domicile,u.createtime')->join('join bbs_info as i on u.id = i.id')->select();
+		$this->assign('user',$user);
+		$this->display('member-list');
+	}
+	public function add(){
+		if(IS_POST){
+           $data = I('post.');
+           // dump($data);die;
+           $model = D('User');
+           $data['createtime']=date('Y-m-d H:i:s');
+           $arr = [];
+           $arr=[
+             'name'=>$data['name'],
+             'email'=>$data['email'],
+             'createtime'=>$data['createtime']
+           ];          
+           $res=$model->add($arr);
+          $model = D('Info');
+          $arr = [
+          	'id'=>$res,
+             'sex' =>$data['sex'],
+             'domicile'=>$data['domicile'],
+             'phone'=>$data['phone']
+          ];
+          $res = $model->add($arr);
+          if($res){
+          	$return=[
+              'code'=>10000,
+              'msg'=>'添加成功'
+          	];
+          	$this->ajaxReturn($return);
+          }else{
+          	$return=[
+              'code'=>10001,
+              'msg'=>'添加失败'
+          	];
+          	$this->ajaxReturn($return);
+          }
+		}else{
+		   $this->display('member-add');
+		}
+		
+	}
+	public function edit(){
+			$this->display('member-edit');
+	}
+	public function password(){
+			$this->display('member-password');
+	}
+	public function del(){
+			$this->display('member-del');
+	}
+	public function level(){
+			$this->display('member-level');
+	}
+	public function kiss(){
+			$this->display('member-kiss');
+	}
+	public function view(){
+			$this->display('member-view');
+	}
+	public function kissadd(){
+			$this->display('kiss-add');
+	}
+	public function kissedit(){
+			$this->display('kiss-edit');
+	}
+	public function show(){
+			$this->display('member-show');
+	}
+	public function leveladd(){
+			$this->display('level-add');
+	}
+	public function leveledit(){
+			$this->display('level-edit');
+	}
+	
+}

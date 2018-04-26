@@ -1,0 +1,121 @@
+<?php
+namespace Admin\Controller;
+use Think\Controller;
+class AdminController extends Controller{
+	public function lis(){
+		$data=D('admin')->select();
+		$this->assign('data',$data);
+		// dump($data);
+		$this->display('admin-list');
+	}
+	public function add(){
+		// echo 1;die();
+		if(IS_POST){
+			$data=I('post.');
+			//判空
+			if (empty($data["adminname"])||empty($data["adminpass"])||empty($data["adminphone"])||empty($data["adminemail"])||empty($data["adminroleid"])) {
+				$return=array(
+				'code'=>10001,
+				'msg'=>'数据为空'
+				);
+				$this->ajaxReturn($return);
+			}
+			//判断用户名是否重复
+			$repeat=D('admin')->where(['admin_name'=>$data['adminname']])->find();
+			if ($repeat!=null) {
+				$return=array(
+				'code'=>10001,
+				'msg'=>'账号重复'
+				);
+				$this->ajaxReturn($return);
+				die;
+			}
+			$data['adminpass']=encrypt_password($data['adminpass']);
+			$data['create_time']=date('Y-m-d H:i:s');
+			$data['login_ip']=ip2long($_SERVER['REMOTE_ADDR']);
+			$admin=D('admin');
+			$admin->create($data);
+			$res=$admin->add();
+			if ($res) {
+				$return=array(
+				'code'=>10000,
+				'msg'=>'插入成功'
+				);
+				$this->ajaxReturn($return);
+			}else{
+				$return=array(
+				'code'=>10001,
+				'msg'=>'插入失败'
+				);
+				$this->ajaxReturn($return);
+			}
+					
+		}else{
+			$data=M('role')->select();
+			$this->assign('data',$data);
+			$this->display('admin-add');
+		}
+
+		
+	}
+	public function edit(){
+		if (IS_POST) {
+			$data=I('post.');
+			if (empty($data["adminname"])||empty($data["adminpass"])||empty($data["adminphone"])||empty($data["adminemail"])||empty($data["adminroleid"])) {
+				$return=array(
+				'code'=>10001,
+				'msg'=>'数据为空'
+				);
+				$this->ajaxReturn($return);
+			}
+			$data['adminpass']=encrypt_password($data['adminpass']);
+			$admin=D('admin');
+			// $admin->create($data);
+			// $data=array(
+			// "admin_name"=>$data['adminname'],
+			// 'admin_pass'=>$data['adminpass'],
+			// 'admin_phone'=>$data['adminphone'],
+			// 'admin_mail'=>$data['adminemail'],
+			// "admin_role"=>$data['adminroleid']
+			// );
+			$admin->create($data);
+			$res=$admin->save();
+			if ($res) {
+				$return=array(
+				'code'=>10000,
+				'msg'=>'插入成功'
+				);
+				$this->ajaxReturn($return);
+			}else{
+				$return=array(
+				'code'=>10001,
+				'msg'=>'插入失败'
+				);
+				$this->ajaxReturn($return);
+			}
+		}else{
+			$id=I('get.id');
+			$data=D('admin')->find(['id'=>$id]);
+			$role=M('role')->select();
+			$this->assign('role',$role);
+			$this->assign('data',$data);
+			$this->display('admin-edit');	
+		}
+			
+	}
+	public function role(){
+		$this->display('admin-role');
+	}
+	public function cate(){
+		$this->display('admin-cate');
+	}
+	public function rule(){
+		$this->display('admin-rule');
+	}
+	public function role_edit(){
+		$this->display('role-edit');
+	}
+	public function role_add(){
+		$this->display('role-add');
+	}
+}
